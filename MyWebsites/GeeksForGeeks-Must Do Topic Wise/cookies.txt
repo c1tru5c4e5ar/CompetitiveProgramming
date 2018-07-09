@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.diss.fu-berlin.de	TRUE	/docs/	FALSE	1999999999	JSESSIONID	B4A15D9757BECFC25E0D49FA77EA965A
+cs.nyu.edu	TRUE	/	FALSE	1999999999	STATICSERVERID	s2
+algo.epfl.ch	TRUE	/	FALSE	1999999999	DokuWiki	87vcrv6fcslnis49h9f4jfi433
+www.cs.cmu.edu	TRUE	/	FALSE	1999999999	BIGipServer~SCS~cs-userdir-pool-80	2732130944.20480.0000
+algo.epfl.ch	TRUE	/	FALSE	1999999999	DW68700bfd16c2027de7de74a5a8202a6f	deleted
+.cs.cmu.edu	TRUE	/	FALSE	1999999999	SHIBLOCATION	local
+www.columbia.edu	TRUE	/	FALSE	1999999999	BIGipServer~CUIT~www.columbia.edu-80-pool	1311259520.20480.0000
+

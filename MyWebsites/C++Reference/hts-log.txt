@@ -1,0 +1,307 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 05 Dec 2017 11:05:29 at http://www.cplusplus.com/reference/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p7DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.cplusplus.com/reference/ -O1 "D:\MyWebsites\C++Reference" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:05:47	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2549): www.cplusplus.com/reference/new.cgi?a=cfenv
+11:07:28	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/ios_base/
+11:07:28	Warning: 	File has moved from www.cplusplus.com/reference/iostream/ios_base/ to /reference/ios/ios_base/
+11:07:29	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/ios/
+11:07:29	Warning: 	File has moved from www.cplusplus.com/reference/iostream/ios/ to /reference/ios/ios/
+11:07:29	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/istream/
+11:07:29	Warning: 	File has moved from www.cplusplus.com/reference/iostream/istream/ to /reference/istream/istream/
+11:07:30	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/iostream/
+11:07:30	Warning: 	File has moved from www.cplusplus.com/reference/iostream/iostream/ to /reference/istream/iostream/
+11:07:30	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/ostream/
+11:07:30	Warning: 	File has moved from www.cplusplus.com/reference/iostream/ostream/ to /reference/ostream/ostream/
+11:07:31	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/streambuf/
+11:07:31	Warning: 	File has moved from www.cplusplus.com/reference/iostream/streambuf/ to /reference/streambuf/streambuf/
+11:07:37	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/ifstream/
+11:07:37	Warning: 	File has moved from www.cplusplus.com/reference/iostream/ifstream/ to /reference/fstream/ifstream/
+11:07:38	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/fstream/
+11:07:38	Warning: 	File has moved from www.cplusplus.com/reference/iostream/fstream/ to /reference/fstream/fstream/
+11:07:38	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/ofstream/
+11:07:38	Warning: 	File has moved from www.cplusplus.com/reference/iostream/ofstream/ to /reference/fstream/ofstream/
+11:07:39	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/filebuf/
+11:07:39	Warning: 	File has moved from www.cplusplus.com/reference/iostream/filebuf/ to /reference/fstream/filebuf/
+11:07:39	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/istringstream/
+11:07:39	Warning: 	File has moved from www.cplusplus.com/reference/iostream/istringstream/ to /reference/sstream/istringstream/
+11:07:40	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/stringstream/
+11:07:40	Warning: 	File has moved from www.cplusplus.com/reference/iostream/stringstream/ to /reference/sstream/stringstream/
+11:07:40	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/ostringstream/
+11:07:40	Warning: 	File has moved from www.cplusplus.com/reference/iostream/ostringstream/ to /reference/sstream/ostringstream/
+11:07:41	Warning: 	Moved Permanently for www.cplusplus.com/reference/iostream/stringbuf/
+11:07:41	Warning: 	File has moved from www.cplusplus.com/reference/iostream/stringbuf/ to /reference/sstream/stringbuf/
+11:10:14	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cassert (from www.cplusplus.com/reference/cassert/)
+11:10:43	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2597): www.cplusplus.com/reference/edit.cgi?a=cctype+tolower
+11:10:48	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cctype (from www.cplusplus.com/reference/cctype/)
+11:10:50	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cerrno (from www.cplusplus.com/reference/cerrno/)
+11:11:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2609): www.cplusplus.com/reference/delete.cgi?a=cfenv+FE_INEXACT
+11:11:56	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cfenv (from www.cplusplus.com/reference/cfenv/)
+11:12:13	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=clocale (from www.cplusplus.com/reference/clocale/)
+11:13:23	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cmath (from www.cplusplus.com/reference/cmath/)
+11:13:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=csetjmp (from www.cplusplus.com/reference/csetjmp/)
+11:13:28	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=csignal (from www.cplusplus.com/reference/csignal/)
+11:13:31	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cstdarg (from www.cplusplus.com/reference/cstdarg/)
+11:13:36	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cstddef (from www.cplusplus.com/reference/cstddef/)
+11:14:18	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cstdio (from www.cplusplus.com/reference/cstdio/)
+11:14:54	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cstdlib (from www.cplusplus.com/reference/cstdlib/)
+11:15:11	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cstring (from www.cplusplus.com/reference/cstring/)
+11:15:22	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ctime (from www.cplusplus.com/reference/ctime/)
+11:15:24	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cuchar (from www.cplusplus.com/reference/cuchar/)
+11:16:12	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cwchar (from www.cplusplus.com/reference/cwchar/)
+11:16:27	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=cwctype (from www.cplusplus.com/reference/cwctype/)
+11:16:35	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=array (from www.cplusplus.com/reference/array/)
+11:16:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=bitset (from www.cplusplus.com/reference/bitset/)
+11:16:44	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=deque (from www.cplusplus.com/reference/deque/)
+11:16:48	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=forward_list (from www.cplusplus.com/reference/forward_list/)
+11:16:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=list (from www.cplusplus.com/reference/list/)
+11:17:00	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=map (from www.cplusplus.com/reference/map/)
+11:17:06	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=queue (from www.cplusplus.com/reference/queue/)
+11:17:13	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=set (from www.cplusplus.com/reference/set/)
+11:17:17	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=stack (from www.cplusplus.com/reference/stack/)
+11:17:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=unordered_map (from www.cplusplus.com/reference/unordered_map/)
+11:17:33	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=unordered_set (from www.cplusplus.com/reference/unordered_set/)
+11:17:41	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=vector (from www.cplusplus.com/reference/vector/)
+11:19:06	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2612): www.cplusplus.com/reference/edit.cgi?a=atomic+atomic_store
+11:19:56	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2681): www.cplusplus.com/reference/delete.cgi?a=atomic+atomic_flag_test_and_set_explicit
+11:20:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=atomic (from www.cplusplus.com/reference/atomic/)
+11:20:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=condition_variable (from www.cplusplus.com/reference/condition_variable/)
+11:20:38	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future (from www.cplusplus.com/reference/future/)
+11:20:39	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2588): www.cplusplus.com/reference/edit.cgi?a=mutex+mutex
+11:21:02	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex (from www.cplusplus.com/reference/mutex/)
+11:21:08	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=thread (from www.cplusplus.com/reference/thread/)
+11:22:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=algorithm (from www.cplusplus.com/reference/algorithm/)
+11:22:19	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2621): www.cplusplus.com/reference/edit.cgi?a=chrono+duration_values
+11:22:27	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono (from www.cplusplus.com/reference/chrono/)
+11:22:32	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=codecvt (from www.cplusplus.com/reference/codecvt/)
+11:22:51	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=complex (from www.cplusplus.com/reference/complex/)
+11:23:05	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=exception (from www.cplusplus.com/reference/exception/)
+11:23:46	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=functional (from www.cplusplus.com/reference/functional/)
+11:23:48	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=initializer_list (from www.cplusplus.com/reference/initializer_list/)
+11:24:18	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iterator (from www.cplusplus.com/reference/iterator/)
+11:24:20	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=limits (from www.cplusplus.com/reference/limits/)
+11:24:38	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2597): www.cplusplus.com/reference/edit.cgi?a=locale+num_get
+11:24:52	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2621): www.cplusplus.com/reference/edit.cgi?a=locale+time_get_byname
+11:25:14	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2621): www.cplusplus.com/reference/edit.cgi?a=locale+wbuffer_convert
+11:25:29	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale (from www.cplusplus.com/reference/locale/)
+11:25:44	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2600): www.cplusplus.com/reference/edit.cgi?a=memory+weak_ptr
+11:25:54	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2615): www.cplusplus.com/reference/delete.cgi?a=memory+make_shared
+11:26:15	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory (from www.cplusplus.com/reference/memory/)
+11:26:23	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=new (from www.cplusplus.com/reference/new/)
+11:26:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=numeric (from www.cplusplus.com/reference/numeric/)
+11:28:11	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random (from www.cplusplus.com/reference/random/)
+11:28:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ratio (from www.cplusplus.com/reference/ratio/)
+11:28:51	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex (from www.cplusplus.com/reference/regex/)
+11:28:58	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=stdexcept (from www.cplusplus.com/reference/stdexcept/)
+11:29:37	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=string (from www.cplusplus.com/reference/string/)
+11:29:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=system_error (from www.cplusplus.com/reference/system_error/)
+11:30:01	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=tuple (from www.cplusplus.com/reference/tuple/)
+11:30:04	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=typeindex (from www.cplusplus.com/reference/typeindex/)
+11:30:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=typeinfo (from www.cplusplus.com/reference/typeinfo/)
+11:31:08	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=type_traits (from www.cplusplus.com/reference/type_traits/)
+11:31:17	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=utility (from www.cplusplus.com/reference/utility/)
+11:31:39	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=valarray (from www.cplusplus.com/reference/valarray/)
+11:32:25	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream (from www.cplusplus.com/reference/fstream/)
+11:32:34	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iomanip (from www.cplusplus.com/reference/iomanip/)
+11:32:42	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ios (from www.cplusplus.com/reference/ios/)
+11:32:42	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iostream (from www.cplusplus.com/reference/iostream/)
+11:32:43	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2618): www.cplusplus.com/reference/edit.cgi?a=istream+basic_istream
+11:32:47	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=istream (from www.cplusplus.com/reference/istream/)
+11:32:50	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ostream (from www.cplusplus.com/reference/ostream/)
+11:33:04	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream (from www.cplusplus.com/reference/sstream/)
+11:33:05	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2630): www.cplusplus.com/reference/edit.cgi?a=streambuf+basic_streambuf
+11:33:10	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=streambuf (from www.cplusplus.com/reference/streambuf/)
+11:33:32	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=array+array (from www.cplusplus.com/reference/array/array/)
+11:33:44	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=bitset+bitset (from www.cplusplus.com/reference/bitset/bitset/)
+11:34:08	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=deque+deque (from www.cplusplus.com/reference/deque/deque/)
+11:34:30	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=forward_list+forward_list (from www.cplusplus.com/reference/forward_list/forward_list/)
+11:34:57	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=list+list (from www.cplusplus.com/reference/list/list/)
+11:35:22	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=map+map (from www.cplusplus.com/reference/map/map/)
+11:35:44	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=map+multimap (from www.cplusplus.com/reference/map/multimap/)
+11:35:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=queue+queue (from www.cplusplus.com/reference/queue/queue/)
+11:36:00	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=queue+priority_queue (from www.cplusplus.com/reference/queue/priority_queue/)
+11:36:23	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=set+set (from www.cplusplus.com/reference/set/set/)
+11:36:43	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=set+multiset (from www.cplusplus.com/reference/set/multiset/)
+11:36:50	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=stack+stack (from www.cplusplus.com/reference/stack/stack/)
+11:37:14	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=unordered_map+unordered_map (from www.cplusplus.com/reference/unordered_map/unordered_map/)
+11:37:36	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=unordered_map+unordered_multimap (from www.cplusplus.com/reference/unordered_map/unordered_multimap/)
+11:38:00	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=unordered_set+unordered_set (from www.cplusplus.com/reference/unordered_set/unordered_set/)
+11:38:24	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=unordered_set+unordered_multiset (from www.cplusplus.com/reference/unordered_set/unordered_multiset/)
+11:38:49	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=vector+vector (from www.cplusplus.com/reference/vector/vector/)
+11:38:52	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=vector+vector-bool (from www.cplusplus.com/reference/vector/vector-bool/)
+11:39:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ios+ios_base (from www.cplusplus.com/reference/ios/ios_base/)
+11:39:23	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ios+ios (from www.cplusplus.com/reference/ios/ios/)
+11:39:38	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=istream+istream (from www.cplusplus.com/reference/istream/istream/)
+11:39:46	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=istream+iostream (from www.cplusplus.com/reference/istream/iostream/)
+11:39:50	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ostream+ostream (from www.cplusplus.com/reference/ostream/ostream/)
+11:40:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=streambuf+streambuf (from www.cplusplus.com/reference/streambuf/streambuf/)
+11:40:25	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+ifstream (from www.cplusplus.com/reference/fstream/ifstream/)
+11:40:30	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+fstream (from www.cplusplus.com/reference/fstream/fstream/)
+11:40:36	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+ofstream (from www.cplusplus.com/reference/fstream/ofstream/)
+11:40:49	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+filebuf (from www.cplusplus.com/reference/fstream/filebuf/)
+11:40:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+istringstream (from www.cplusplus.com/reference/sstream/istringstream/)
+11:40:58	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+stringstream (from www.cplusplus.com/reference/sstream/stringstream/)
+11:41:02	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+ostringstream (from www.cplusplus.com/reference/sstream/ostringstream/)
+11:41:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+stringbuf (from www.cplusplus.com/reference/sstream/stringbuf/)
+11:41:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=atomic+atomic (from www.cplusplus.com/reference/atomic/atomic/)
+11:41:21	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=atomic+atomic_flag (from www.cplusplus.com/reference/atomic/atomic_flag/)
+11:41:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=condition_variable+condition_variable (from www.cplusplus.com/reference/condition_variable/condition_variable/)
+11:41:32	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=condition_variable+condition_variable_any (from www.cplusplus.com/reference/condition_variable/condition_variable_any/)
+11:41:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future+promise (from www.cplusplus.com/reference/future/promise/)
+11:41:47	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future+packaged_task (from www.cplusplus.com/reference/future/packaged_task/)
+11:41:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future+future (from www.cplusplus.com/reference/future/future/)
+11:42:00	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future+shared_future (from www.cplusplus.com/reference/future/shared_future/)
+11:42:02	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future+future_error (from www.cplusplus.com/reference/future/future_error/)
+11:42:04	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=future+future_errc (from www.cplusplus.com/reference/future/future_errc/)
+11:42:08	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex+mutex (from www.cplusplus.com/reference/mutex/mutex/)
+11:42:13	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex+recursive_mutex (from www.cplusplus.com/reference/mutex/recursive_mutex/)
+11:42:18	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex+timed_mutex (from www.cplusplus.com/reference/mutex/timed_mutex/)
+11:42:24	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex+recursive_timed_mutex (from www.cplusplus.com/reference/mutex/recursive_timed_mutex/)
+11:42:25	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex+lock_guard (from www.cplusplus.com/reference/mutex/lock_guard/)
+11:42:34	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=mutex+unique_lock (from www.cplusplus.com/reference/mutex/unique_lock/)
+11:42:43	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=thread+thread (from www.cplusplus.com/reference/thread/thread/)
+11:42:46	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=thread+this_thread (from www.cplusplus.com/reference/thread/this_thread/)
+11:42:52	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono+duration (from www.cplusplus.com/reference/chrono/duration/)
+11:42:55	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono+time_point (from www.cplusplus.com/reference/chrono/time_point/)
+11:42:57	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono+system_clock (from www.cplusplus.com/reference/chrono/system_clock/)
+11:42:58	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono+steady_clock (from www.cplusplus.com/reference/chrono/steady_clock/)
+11:42:59	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono+high_resolution_clock (from www.cplusplus.com/reference/chrono/high_resolution_clock/)
+11:43:01	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=chrono+duration_values (from www.cplusplus.com/reference/chrono/duration_values/)
+11:43:09	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=complex+complex (from www.cplusplus.com/reference/complex/complex/)
+11:43:12	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=exception+exception (from www.cplusplus.com/reference/exception/exception/)
+11:43:14	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=exception+nested_exception (from www.cplusplus.com/reference/exception/nested_exception/)
+11:43:24	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=functional+function (from www.cplusplus.com/reference/functional/function/)
+11:43:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=functional+reference_wrapper (from www.cplusplus.com/reference/functional/reference_wrapper/)
+11:43:30	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=initializer_list+initializer_list (from www.cplusplus.com/reference/initializer_list/initializer_list/)
+11:43:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iterator+reverse_iterator (from www.cplusplus.com/reference/iterator/reverse_iterator/)
+11:43:50	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iterator+move_iterator (from www.cplusplus.com/reference/iterator/move_iterator/)
+11:43:54	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iterator+istream_iterator (from www.cplusplus.com/reference/iterator/istream_iterator/)
+11:43:57	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=iterator+ostream_iterator (from www.cplusplus.com/reference/iterator/ostream_iterator/)
+11:44:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+locale (from www.cplusplus.com/reference/locale/locale/)
+11:44:20	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+ctype (from www.cplusplus.com/reference/locale/ctype/)
+11:44:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+codecvt (from www.cplusplus.com/reference/locale/codecvt/)
+11:44:29	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+num_get (from www.cplusplus.com/reference/locale/num_get/)
+11:44:32	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+num_put (from www.cplusplus.com/reference/locale/num_put/)
+11:44:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+numpunct (from www.cplusplus.com/reference/locale/numpunct/)
+11:44:46	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+collate (from www.cplusplus.com/reference/locale/collate/)
+11:44:58	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+time_get (from www.cplusplus.com/reference/locale/time_get/)
+11:45:01	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+time_put (from www.cplusplus.com/reference/locale/time_put/)
+11:45:04	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+money_get (from www.cplusplus.com/reference/locale/money_get/)
+11:45:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+money_put (from www.cplusplus.com/reference/locale/money_put/)
+11:45:22	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+moneypunct (from www.cplusplus.com/reference/locale/moneypunct/)
+11:45:28	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+messages (from www.cplusplus.com/reference/locale/messages/)
+11:45:31	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+wbuffer_convert (from www.cplusplus.com/reference/locale/wbuffer_convert/)
+11:45:35	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=locale+wstring_convert (from www.cplusplus.com/reference/locale/wstring_convert/)
+11:45:42	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+allocator (from www.cplusplus.com/reference/memory/allocator/)
+11:45:46	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+allocator_traits (from www.cplusplus.com/reference/memory/allocator_traits/)
+11:45:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+auto_ptr (from www.cplusplus.com/reference/memory/auto_ptr/)
+11:46:04	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+shared_ptr (from www.cplusplus.com/reference/memory/shared_ptr/)
+11:46:11	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+weak_ptr (from www.cplusplus.com/reference/memory/weak_ptr/)
+11:46:21	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+unique_ptr (from www.cplusplus.com/reference/memory/unique_ptr/)
+11:46:23	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+default_delete (from www.cplusplus.com/reference/memory/default_delete/)
+11:46:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+enable_shared_from_this (from www.cplusplus.com/reference/memory/enable_shared_from_this/)
+11:46:26	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+pointer_traits (from www.cplusplus.com/reference/memory/pointer_traits/)
+11:46:28	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=memory+bad_weak_ptr (from www.cplusplus.com/reference/memory/bad_weak_ptr/)
+11:46:34	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+linear_congruential_engine (from www.cplusplus.com/reference/random/linear_congruential_engine/)
+11:46:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+mersenne_twister_engine (from www.cplusplus.com/reference/random/mersenne_twister_engine/)
+11:46:47	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+subtract_with_carry_engine (from www.cplusplus.com/reference/random/subtract_with_carry_engine/)
+11:46:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+discard_block_engine (from www.cplusplus.com/reference/random/discard_block_engine/)
+11:47:01	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+independent_bits_engine (from www.cplusplus.com/reference/random/independent_bits_engine/)
+11:47:08	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+shuffle_order_engine (from www.cplusplus.com/reference/random/shuffle_order_engine/)
+11:47:12	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+random_device (from www.cplusplus.com/reference/random/random_device/)
+11:47:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+uniform_int_distribution (from www.cplusplus.com/reference/random/uniform_int_distribution/)
+11:47:27	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+uniform_real_distribution (from www.cplusplus.com/reference/random/uniform_real_distribution/)
+11:47:34	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+bernoulli_distribution (from www.cplusplus.com/reference/random/bernoulli_distribution/)
+11:47:41	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+binomial_distribution (from www.cplusplus.com/reference/random/binomial_distribution/)
+11:47:48	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+geometric_distribution (from www.cplusplus.com/reference/random/geometric_distribution/)
+11:47:56	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+negative_binomial_distribution (from www.cplusplus.com/reference/random/negative_binomial_distribution/)
+11:48:03	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+poisson_distribution (from www.cplusplus.com/reference/random/poisson_distribution/)
+11:48:10	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+exponential_distribution (from www.cplusplus.com/reference/random/exponential_distribution/)
+11:48:18	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+gamma_distribution (from www.cplusplus.com/reference/random/gamma_distribution/)
+11:48:25	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+weibull_distribution (from www.cplusplus.com/reference/random/weibull_distribution/)
+11:48:33	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+extreme_value_distribution (from www.cplusplus.com/reference/random/extreme_value_distribution/)
+11:48:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+normal_distribution (from www.cplusplus.com/reference/random/normal_distribution/)
+11:48:48	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+lognormal_distribution (from www.cplusplus.com/reference/random/lognormal_distribution/)
+11:48:56	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+chi_squared_distribution (from www.cplusplus.com/reference/random/chi_squared_distribution/)
+11:49:03	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+cauchy_distribution (from www.cplusplus.com/reference/random/cauchy_distribution/)
+11:49:11	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+fisher_f_distribution (from www.cplusplus.com/reference/random/fisher_f_distribution/)
+11:49:18	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+student_t_distribution (from www.cplusplus.com/reference/random/student_t_distribution/)
+11:49:25	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+discrete_distribution (from www.cplusplus.com/reference/random/discrete_distribution/)
+11:49:33	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+piecewise_constant_distribution (from www.cplusplus.com/reference/random/piecewise_constant_distribution/)
+11:49:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+piecewise_linear_distribution (from www.cplusplus.com/reference/random/piecewise_linear_distribution/)
+11:49:43	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=random+seed_seq (from www.cplusplus.com/reference/random/seed_seq/)
+11:49:48	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex+regex_iterator (from www.cplusplus.com/reference/regex/regex_iterator/)
+11:49:53	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex+regex_token_iterator (from www.cplusplus.com/reference/regex/regex_token_iterator/)
+11:50:00	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex+basic_regex (from www.cplusplus.com/reference/regex/basic_regex/)
+11:50:17	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex+match_results (from www.cplusplus.com/reference/regex/match_results/)
+11:50:21	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex+sub_match (from www.cplusplus.com/reference/regex/sub_match/)
+11:50:30	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=regex+regex_traits (from www.cplusplus.com/reference/regex/regex_traits/)
+11:51:10	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=string+basic_string (from www.cplusplus.com/reference/string/basic_string/)
+11:51:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=string+char_traits (from www.cplusplus.com/reference/string/char_traits/)
+11:51:58	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=string+string (from www.cplusplus.com/reference/string/string/)
+11:52:03	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=system_error+error_category (from www.cplusplus.com/reference/system_error/error_category/)
+11:52:12	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=system_error+error_code (from www.cplusplus.com/reference/system_error/error_code/)
+11:52:18	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=system_error+error_condition (from www.cplusplus.com/reference/system_error/error_condition/)
+11:52:20	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=system_error+system_error (from www.cplusplus.com/reference/system_error/system_error/)
+11:52:25	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=tuple+tuple (from www.cplusplus.com/reference/tuple/tuple/)
+11:52:28	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=typeindex+type_index (from www.cplusplus.com/reference/typeindex/type_index/)
+11:52:31	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=typeinfo+type_info (from www.cplusplus.com/reference/typeinfo/type_info/)
+11:52:31	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=type_traits+integral_constant (from www.cplusplus.com/reference/type_traits/integral_constant/)
+11:52:38	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=utility+pair (from www.cplusplus.com/reference/utility/pair/)
+11:52:49	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=valarray+valarray (from www.cplusplus.com/reference/valarray/valarray/)
+11:52:52	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=valarray+slice (from www.cplusplus.com/reference/valarray/slice/)
+11:52:55	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=valarray+gslice (from www.cplusplus.com/reference/valarray/gslice/)
+11:53:23	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+basic_ifstream (from www.cplusplus.com/reference/fstream/basic_ifstream/)
+11:53:34	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+basic_ofstream (from www.cplusplus.com/reference/fstream/basic_ofstream/)
+11:53:40	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+basic_fstream (from www.cplusplus.com/reference/fstream/basic_fstream/)
+11:54:03	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=fstream+basic_filebuf (from www.cplusplus.com/reference/fstream/basic_filebuf/)
+11:54:07	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ios+basic_ios (from www.cplusplus.com/reference/ios/basic_ios/)
+11:54:09	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ios+io_errc (from www.cplusplus.com/reference/ios/io_errc/)
+11:54:13	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=istream+basic_istream (from www.cplusplus.com/reference/istream/basic_istream/)
+11:54:16	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=istream+basic_iostream (from www.cplusplus.com/reference/istream/basic_iostream/)
+11:54:19	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=ostream+basic_ostream (from www.cplusplus.com/reference/ostream/basic_ostream/)
+11:54:24	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+basic_istringstream (from www.cplusplus.com/reference/sstream/basic_istringstream/)
+11:54:28	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+basic_ostringstream (from www.cplusplus.com/reference/sstream/basic_ostringstream/)
+11:54:33	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+basic_stringstream (from www.cplusplus.com/reference/sstream/basic_stringstream/)
+11:54:39	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=sstream+basic_stringbuf (from www.cplusplus.com/reference/sstream/basic_stringbuf/)
+11:54:59	Error: 	"Not Found" (404) at link www.cplusplus.com/reference/delete.cgi?a=streambuf+basic_streambuf (from www.cplusplus.com/reference/streambuf/basic_streambuf/)
+11:55:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+11:55:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): pagead2.googlesyndication.com/pagead/show_ads.js
+11:55:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/cmath/erf/erf.png
+11:55:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/cmath/erfc/erfc.png
+11:55:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/cmath/tgamma/tgamma.png
+11:55:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/cmath/lgamma/lgamma.png
+11:55:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/linear_congruential_engine/linear_congruential_engine.png
+11:55:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/uniform_int_distribution/uniform_int.gif
+11:55:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/poisson_distribution/poisson.gif
+11:55:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/extreme_value_distribution/extreme_value.gif
+11:55:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/gamma_distribution/gamma.gif
+11:55:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/chi_squared_distribution/chi_squared.gif
+11:55:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/cauchy_distribution/cauchy.gif
+11:55:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/discrete_distribution/discrete.gif
+11:55:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.cplusplus.com/reference/random/piecewise_constant_distribution/piecewise_constant.gif
+11:55:29	Warning: 	HTML file (14685 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/cassert/
+11:55:30	Warning: 	HTML file (30782 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/atomic/
+11:55:32	Warning: 	HTML file (23538 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/clibrary/
+11:55:33	Warning: 	HTML file (2935 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/new.cgi
+11:55:33	Warning: 	HTML file (3026 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/edit.cgi?a=cmath+erf
+11:55:34	Warning: 	HTML file (3031 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/edit.cgi?a=cmath+erfc
+11:55:34	Warning: 	HTML file (3041 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/edit.cgi?a=cmath+tgamma
+11:55:35	Warning: 	HTML file (3041 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/edit.cgi?a=cmath+lgamma
+11:55:35	Warning: 	HTML file (24901 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/linear_congruential_engine/linear_congruential_engine/
+11:55:36	Warning: 	HTML file (25432 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/uniform_int_distribution/uniform_int_distribution/
+11:55:38	Warning: 	HTML file (24207 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/poisson_distribution/poisson_distribution/
+11:55:39	Warning: 	HTML file (24987 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/gamma_distribution/gamma_distribution/
+11:55:40	Warning: 	HTML file (25208 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/extreme_value_distribution/extreme_value_distribution/
+11:55:41	Warning: 	HTML file (24559 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/chi_squared_distribution/chi_squared_distribution/
+11:55:42	Warning: 	HTML file (24896 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/cauchy_distribution/cauchy_distribution/
+11:55:43	Warning: 	HTML file (28674 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/discrete_distribution/discrete_distribution/
+11:55:44	Warning: 	HTML file (30281 bytes) retransferred due to lack of cache: www.cplusplus.com/reference/random/piecewise_constant_distribution/piecewise_constant_distribution/
+11:55:45	Error: 	"Not Found" (404) at link www.cplusplus.com/ico/treevline.png (from www.cplusplus.com/v321/main.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 50 minutes 16 seconds : 9370 links scanned, 9165 files written (85002123 bytes overall) [25813774 bytes received at 8558 bytes/sec], 84528097 bytes transferred using HTTP compression in 9344 files, ratio 25%, 38.5 requests per connection
+(222 errors, 74 warnings, 0 messages)

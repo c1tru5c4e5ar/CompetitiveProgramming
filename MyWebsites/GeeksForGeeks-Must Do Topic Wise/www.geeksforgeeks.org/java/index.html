@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+
+<!-- Mirrored from www.geeksforgeeks.org/java/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Dec 2017 06:35:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles, quizzes and practice/competitive programming/company interview Questions.">
+<link rel="shortcut icon" href="../gfg.png" type="image/x-icon" />
+
+<meta property="og:image" content="../wp-content/uploads/gfg_200X200.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+
+<title>Java Programming Language - GeeksforGeeks</title>
+<link rel="profile" href="../../gmpg.org/xfn/11.html" />
+<link rel="pingback" href="#" />
+<!--[if lt IE 9]>
+<script src="http://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script>
+
+    var arrPostCat = new Array();
+        var domain = 1;
+    var arrPost = new Array();
+    var post_id = "126247";
+    var post_type = "page";
+    var post_slug = window.location.href;
+    var ip = "52.66.194.160";
+    var post_title = "Java Programming Language";
+    var post_status = "publish";
+                            var isAdminLoggedIn = 0;
+        </script>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="This page contains all topics of Java with clear explanations and examples. It also contains job interview questions,MCQ quizzes and output based questions."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Java Programming Language - GeeksforGeeks" />
+<meta property="og:description" content="This page contains all topics of Java with clear explanations and examples. It also contains job interview questions,MCQ quizzes and output based questions." />
+<meta property="og:url" content="http://www.geeksforgeeks.org/java/" />
+<meta property="og:site_name" content="GeeksforGeeks" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='../index.html' />
+<link rel='dns-prefetch' href='../../fonts.googleapis.com/index.html' />
+<link rel='dns-prefetch' href='../../s.w.org/index.html' />
+<link rel="alternate" type="application/rss+xml" title="GeeksforGeeks &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="GeeksforGeeks &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="GeeksforGeeks &raquo; Java Programming Language Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.geeksforgeeks.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mtq_CoreStyleSheets-css'  href='../wp-content/plugins/mtouch-quiz/mtq_core_style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mtq_ThemeStyleSheets-css'  href='../wp-content/plugins/mtouch-quiz/mtq_theme_style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-quicklatex-format-css'  href='../wp-content/plugins/wp-quicklatex/css/quicklatex-format.css' type='text/css' media='all' />
+<link rel='stylesheet' id='themonic-fonts-css'  href='../../fonts.googleapis.com/cssdbc5.css?family=Ubuntu:400,700&amp;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='../wp-content/themes/iconic-one/css/gfg-1.6.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/iconic-one/js/gfg-6.8.js'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../www.cdn.geeksforgeeks.org/xmlrpc0db0.html?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.8" />
+<link rel='shortlink' href='../index84a7.html?p=126247' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed802c.json?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fjava%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embedcabc?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fjava%2F&amp;format=xml" />
+<style>
+#wpadminbar{
+background: #ff0000 !important;
+}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="icon" href="../wp-content/uploads/gfg_200X200-100x100.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/gfg_200X200.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/gfg_200X200.png" />
+<meta name="msapplication-TileImage" content="http://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png" />
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/27823234/SP', [300, 250], 'div-gpt-ad-1458112424022-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+
+<body class="page page-id-126247 page-template-default custom-background custom-background-white custom-font-enabled">
+
+<!-- BuySellAds Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '../../s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- End BuySellAds Ad Code -->
+
+<div id="page" style="position:relative;" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<div style="margin-bottom: 5px;">	
+				<hgroup class="main_gfg_title">
+			<a href="../index.html" title="GeeksforGeeks" rel="home">GeeksforGeeks</a>
+				<br .../> <a class="site-description">A computer science portal for geeks</a>
+		</hgroup>
+		<span class="responsive-custom-search">
+<script>
+  (function() {
+    var cx = '009682134359037907028:tj6eafkv_be';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+		
+		<gcse:search></gcse:search>  
+		</span>
+
+<div class="top-button-div">
+<hgroup style="float:right;display:inline-block;margin-top:5px;">   
+
+
+<a class="products" href="https://practice.geeksforgeeks.org/">Practice</a>
+
+<a class="products" href="http://quiz.geeksforgeeks.org/gate-corner-2/">GATE CS</a>
+
+<a class="products" href="http://quiz.geeksforgeeks.org/placements/">Placements</a>
+
+<a class="products" href="https://www.youtube.com/geeksforgeeksvideos/">Videos</a>
+
+<a class="products" href="../contribute/index.html">Contribute</a>
+</hgroup><br></br>
+
+
+<div id="profile" style="float: right; margin-top: -1%;margin-right:1%;"></div>
+</div>
+</div>
+
+		
+		
+		<nav id="site-navigation" class="themonic-nav" role="navigation">
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="menu-iconic-container"><ul id="menu-top" class="nav-menu"><li id="menu-item-147519" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147519"><a href="../index.html"><img style="width: 30px;vertical-align: middle;" src="../wp-content/uploads/gfg_transparent_white_small.png"></a></li>
+<li id="menu-item-141975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-141975"><a href="../fundamentals-of-algorithms/index.html">Algo ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-135030" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135030"><a href="../fundamentals-of-algorithms/index.html#AnalysisofAlgorithms">Analysis of Algorithms</a></li>
+	<li id="menu-item-146823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146823"><a href="../fundamentals-of-algorithms/index.html">Topicwise ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-147774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147774"><a href="../searching-algorithms/index.html">Searching Algorithms</a></li>
+		<li id="menu-item-147773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147773"><a href="../sorting-algorithms/index.html">Sorting Algorithms</a></li>
+		<li id="menu-item-135041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135041"><a href="../graph-data-structure-and-algorithms/index.html">Graph Algorithms</a></li>
+		<li id="menu-item-135040" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135040"><a href="../bitwise-algorithms/index.html">Bit Algorithms</a></li>
+		<li id="menu-item-135034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135034"><a href="../fundamentals-of-algorithms/index.html#PatternSearching">Pattern Searching</a></li>
+		<li id="menu-item-135038" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135038"><a href="../geometric-algorithms/index.html">Geometric Algorithms</a></li>
+		<li id="menu-item-135039" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135039"><a href="../mathematical-algorithms/index.html">Mathematical Algorithms</a></li>
+		<li id="menu-item-135042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135042"><a href="../randomized-algorithms/index.html">Randomized Algorithms</a></li>
+		<li id="menu-item-156520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-156520"><a href="../category/algorithm/game-theory/index.html">Game Theory</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146824" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146824"><a href="../fundamentals-of-algorithms/index.html">Algorithm Paradigms ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-135032" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135032"><a href="../greedy-algorithms/index.html">Greedy Algorithms</a></li>
+		<li id="menu-item-135033" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135033"><a href="../dynamic-programming/index.html">Dynamic Programming</a></li>
+		<li id="menu-item-135037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135037"><a href="../divide-and-conquer/index.html">Divide and Conquer</a></li>
+		<li id="menu-item-135036" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135036"><a href="../backtracking-algorithms/index.html">Backtracking</a></li>
+		<li id="menu-item-137933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137933"><a href="../fundamentals-of-algorithms/index.html#BranchandBound">Branch &#038; Bound</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146911"><a href="../fundamentals-of-algorithms/index.html">All Algorithms</a></li>
+</ul>
+</li>
+<li id="menu-item-142016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-142016"><a href="../data-structures/index.html">DS  ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-135054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135054"><a href="../array-data-structure/index.html">Array</a></li>
+	<li id="menu-item-135045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135045"><a href="../data-structures/linked-list/index.html">LinkedList</a></li>
+	<li id="menu-item-135046" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135046"><a href="../stack-data-structure/index.html">Stack</a></li>
+	<li id="menu-item-135047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135047"><a href="../queue-data-structure/index.html">Queue</a></li>
+	<li id="menu-item-146827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146827"><a href="../data-structures/index.html">Tree based DS ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-135048" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135048"><a href="../binary-tree-data-structure/index.html">Binary Tree</a></li>
+		<li id="menu-item-135049" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135049"><a href="../binary-search-tree-data-structure/index.html">Binary Search Tree</a></li>
+		<li id="menu-item-135050" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135050"><a href="../heap-data-structure/index.html">Heap</a></li>
+	</ul>
+</li>
+	<li id="menu-item-135051" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135051"><a href="../hashing-data-structure/index.html">Hashing</a></li>
+	<li id="menu-item-135052" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135052"><a href="../graph-data-structure-and-algorithms/index.html">Graph</a></li>
+	<li id="menu-item-135053" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135053"><a href="../advanced-data-structures/index.html">Advanced Data Structure</a></li>
+	<li id="menu-item-135055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135055"><a href="../matrix/index.html">Matrix</a></li>
+	<li id="menu-item-147716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147716"><a href="../string-data-structure/index.html">Strings</a></li>
+	<li id="menu-item-135056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135056"><a href="../data-structures/index.html">All Data Structures</a></li>
+</ul>
+</li>
+<li id="menu-item-147478" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-147478"><a href="../category/program-output/index.html">Languages ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-135006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135006"><a href="../c/index.html">C</a></li>
+	<li id="menu-item-135007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135007"><a href="../c-plus-plus/index.html">C++</a></li>
+	<li id="menu-item-135012" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-126247 current_page_item menu-item-135012"><a href="index.html">Java</a></li>
+	<li id="menu-item-137004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137004"><a href="../python/index.html">Python</a></li>
+	<li id="menu-item-135016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135016"><a href="../sql-tutorial/index.html">SQL</a></li>
+	<li id="menu-item-140854" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140854"><a title="http://www.geeksforgeeks.org/category/program-output/" href="../category/program-output/index.html">Program Output</a></li>
+</ul>
+</li>
+<li id="menu-item-142017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-142017"><a href="../about/interview-corner/index.html">Interview  ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-141326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141326"><a href="../company-preparation/index.html">Company Prep</a></li>
+	<li id="menu-item-137171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137171"><a href="../interview-preparation-for-software-developer/index.html">Top Topics</a></li>
+	<li id="menu-item-137172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137172"><a href="https://practice.geeksforgeeks.org/company-tags">Practice Company Questions</a></li>
+	<li id="menu-item-137173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137173"><a href="../about/interview-corner/index.html">Interview Experiences</a></li>
+	<li id="menu-item-137174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137174"><a href="../category/interview-experiences/experienced-interview-experiences/index.html">Experienced Interviews</a></li>
+	<li id="menu-item-137175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137175"><a href="../category/interview-experiences/internship-interview-experiences/index.html">Internship Interviews</a></li>
+	<li id="menu-item-137176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137176"><a href="../category/competitive-programming/index.html">Competitive Programming</a></li>
+	<li id="menu-item-147581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147581"><a href="../software-design-patterns/index.html">Design Patterns</a></li>
+	<li id="menu-item-137186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137186"><a href="http://geeksquiz.com/quiz-corner/">Multiple Choice Quizzes</a></li>
+</ul>
+</li>
+<li id="menu-item-137178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-137178"><a href="../student-corner/index.html">Students  ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-137183" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137183"><a href="../campus-ambassador-program-by-geeksforgeeks/index.html">Campus Ambassador Program</a></li>
+	<li id="menu-item-137179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137179"><a href="../geek-of-the-month/index.html">Geek of the Month</a></li>
+	<li id="menu-item-137570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137570"><a href="http://geeksquiz.com/placements/">Placement Course</a></li>
+	<li id="menu-item-136004" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136004"><a href="../category/project/index.html">Project</a></li>
+	<li id="menu-item-137180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137180"><a href="../category/competitive-programming/index.html">Competitive Programming</a></li>
+	<li id="menu-item-137181" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137181"><a href="../testimonials/index.html">Testimonials</a></li>
+	<li id="menu-item-138863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138863"><a href="../category/geek-on-the-top/index.html">Geek on the Top</a></li>
+	<li id="menu-item-141974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141974"><a href="../careers/index.html">Careers</a></li>
+	<li id="menu-item-137378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137378"><a href="../internship/index.html">Internship</a></li>
+	<li id="menu-item-147457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147457"><a href="../school-programming/index.html">School Programming</a></li>
+</ul>
+</li>
+<li id="menu-item-146712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146712"><a href="../gate-corner-2-gq/index.html">GATE ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-146713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146713"><a href="../gate-corner-2-gq/index.html">GATE CS Corner</a></li>
+	<li id="menu-item-146714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146714"><a href="../gate-cs-notes-gq/index.html">GATE Notes</a></li>
+	<li id="menu-item-146715" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146715"><a href="../lmns-gq/index.html">Last Minute Notes</a></li>
+	<li id="menu-item-146716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146716"><a href="../original-gate-previous-year-question-papers-cse-and-it-gq/index.html">Official Papers</a></li>
+	<li id="menu-item-146717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146717"><a href="../gate-cs-2018-important-dates/index.html">Gate 2018 Important Dates and Links</a></li>
+</ul>
+</li>
+<li id="menu-item-146718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146718"><a href="../articles-on-computer-science-subjects-gq/index.html">CS Subjects ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-146729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146729"><a href="../operating-systems/index.html">Operating Systems</a></li>
+	<li id="menu-item-146724" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146724"><a href="../dbms/index.html">DBMS</a></li>
+	<li id="menu-item-146721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146721"><a href="../computer-network-tutorials/index.html">Computer Networks</a></li>
+	<li id="menu-item-146720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146720"><a href="../compiler-design-tutorials/index.html">Compiler Design</a></li>
+	<li id="menu-item-147831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147831"><a href="../web-technology/index.html">Web Technology</a></li>
+	<li id="menu-item-146722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146722"><a href="../computer-organization-and-architecture-tutorials/index.html">Computer Organization &#038; Architecture</a></li>
+	<li id="menu-item-146726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146726"><a href="../digital-electronics-logic-design-tutorials/index.html">Digital Electronics</a></li>
+	<li id="menu-item-146727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146727"><a href="../engineering-mathematics-tutorials/index.html">Engg. Mathematics</a></li>
+	<li id="menu-item-146730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146730"><a href="../theory-of-computation-automata-tutorials/index.html">Theory of Computation</a></li>
+	<li id="menu-item-147512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147512"><a href="../advanced-computer-subjects-tutorials/index.html">Advanced Topics</a></li>
+	<li id="menu-item-146725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146725"><a href="../category/geeksquiz/articles-gq/difference-gq/index.html">What&#8217;s Difference?</a></li>
+</ul>
+</li>
+<li id="menu-item-140855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140855"><a href="http://quiz.geeksforgeeks.org/quiz-corner/">Quizzes ▼</a>
+<ul class="sub-menu">
+	<li id="menu-item-146748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146748"><a href="../quizzes-on-programming-languages-gq/index.html">Languages ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-146743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146743"><a href="../quiz-corner-gq/index.html#C%20Programming%20Mock%20Tests">C</a></li>
+		<li id="menu-item-146745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146745"><a href="../quiz-corner-gq/index.html#C++%20Programming%20Mock%20Tests">C++</a></li>
+		<li id="menu-item-146746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146746"><a href="../quiz-corner-gq/index.html#Java%20Programming%20Mock%20Tests">Java</a></li>
+		<li id="menu-item-146747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146747"><a href="../quiz-corner-gq/index.html#Python%20Programming%20Mock%20Tests">Python</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146825"><a href="../quiz-corner-gq/index.html#Data%20Structures%20Mock%20Tests">CS Subjectwise ►</a>
+	<ul class="sub-menu">
+		<li id="menu-item-146731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146731"><a href="../quiz-corner-gq/index.html#Data%20Structures%20Mock%20Tests">Data Structures</a></li>
+		<li id="menu-item-146732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146732"><a href="../quiz-corner-gq/index.html#Algorithms%20Mock%20Tests">Algorithms</a></li>
+		<li id="menu-item-146733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146733"><a href="../quiz-corner-gq/index.html#Operating%20Systems%20Mock%20Tests">Operating Systems</a></li>
+		<li id="menu-item-146734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146734"><a href="../quiz-corner-gq/index.html#DBMS%20Mock%20Tests">DBMS</a></li>
+		<li id="menu-item-146735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146735"><a href="../quiz-corner-gq/index.html#Compiler%20Design%20Mock%20Tests">Compiler Design</a></li>
+		<li id="menu-item-146736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146736"><a href="../quiz-corner-gq/index.html#Computer%20Networks%20Mock%20Tests">Computer Networks</a></li>
+		<li id="menu-item-146737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146737"><a href="../quiz-corner-gq/index.html#Theory%20of%20Computation%20Mock%20Tests">Theory of Computation</a></li>
+		<li id="menu-item-146738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146738"><a href="../quiz-corner-gq/index.html#Computer%20Organization%20and%20Architecture">Computer Organization</a></li>
+		<li id="menu-item-146739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146739"><a href="../software-engineering-gq/index.html">Software Engineering</a></li>
+	</ul>
+</li>
+	<li id="menu-item-146740" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146740"><a href="../html-and-xml-gq/index.html">HTML &#038; XML</a></li>
+	<li id="menu-item-146741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146741"><a href="../quiz-corner-gq/index.html#Engineering%20Mathematics">Engg. Mathematics</a></li>
+	<li id="menu-item-146742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146742"><a href="../quiz-corner-gq/index.html#Aptitude%20Mock%20Tests">Aptitude</a></li>
+</ul>
+</li>
+<li id="menu-item-135367" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-135367"><a href="../category/guestblogs/index.html">GBlog</a></li>
+<li id="menu-item-141885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141885"><a href="../puzzles/index.html">Puzzles</a></li>
+<li id="menu-item-141816" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141816"><a href="../the-technical-scripter-event-by-geeksforgeeks-2/index.html">What&#8217;s New?</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+		<div class="clear"></div>
+	</header><!-- #masthead -->
+<button id="scrollTopBtn" title="Scroll to Top" type="button" class="btn btn-success">&#x25B2;</button>
+	<div id="main" class="wrapper">
+<div class="leftSideBarParent">
+    <div class="leftSideBar">
+        <div class="menuDivForLeftbar"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></div><span class="leftbarDataSpan" data-pid="126247" data-lid="1" data-type="page" data-termid="0"></span><div class="quickLink_S">
+<table>
+<tbody>
+
+
+<tr>
+<td><a href="../write-interview-experience/index.html">How to write an Interview Experience?</a></td>
+</tr>
+
+<tr>
+<td><a href="../must-coding-questions-company-wise/index.html">Must Do Coding Questions Company-wise</a></td>
+</tr>
+
+<tr>
+<td><a href="../must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/index.html">Must Do Coding Questions Topic-wise</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Difficulty Levels</td>
+</tr>
+
+<tr>
+<td><a href="../basic/index.html">Basic</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../easy/index.html">Easy</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../medium/index.html">Medium</a></td>
+</tr>
+
+
+
+<tr>
+<td><a href="../hard/index.html">Hard</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../expert/index.html">Expert</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Popular Tags</td>
+</tr>
+
+
+<tr>
+<td style="padding:2px;line-height:1.7;font-size:13px;"><a href="../tag/amazon/index.html">Amazon</a>, 
+<a href="../tag/microsoft/index.html">Microsoft</a>, <a href="../tag/dynamic-programming/index.html">Dynamic Programming</a>, <a href="../tag/samsung/index.html">Samsung</a><br/><a href="../tags/index.html">Click here for more</a></td>
+</tr>
+
+
+
+
+<tr>
+<td class="quickLink-header_S"><b>Interview Preparation</td>
+</tr>
+
+
+<tr>
+<td><a href="../a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/index.html">Step by Step Preparation</a></td>
+</tr>
+
+<tr>
+<td><a href="../company-preparation/index.html">Company Preparation</a></td>
+</tr>
+
+<tr>
+<td><a href="../interview-preparation-for-software-developer/index.html">Top Topics</a></td>
+</tr>
+
+
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/company-tags">Company Specific Practice</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../software-design-patterns/index.html">Software Design Patterns</a></td>
+</tr>
+
+<tr>
+<td><a href="../placements-gq/index.html">Placements Preparation Course</a></td>
+</tr>
+
+<tr>
+<td><a href="../company-interview-corner/index.html">Interview Corner</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../category/interview-experiences/index.html">Recent Interview Experiences</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../geeksquiz-home/index.html">GQ Home Page</a></td>
+</tr>
+
+<tr>
+<td><a href="../quiz-corner-gq/index.html">Quiz Corner</a></td>
+</tr>
+
+<tr>
+<td><a href="../lmns-gq/index.html">LMNs</a></td>
+</tr>
+
+<tr>
+<td class="quickLink-header_S"><b>Practice Platform</b></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/recent.php?ref=home">What's New ?</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/ranking.php?ref=home">Leaderboard !!</a></td>
+</tr>
+
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/topic-tags/?ref=home">Topic-wise Practice</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/subjective-page.php?ref=home">Subjective Problems</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/School/0/0/?ref=home">Difficulty Level - School</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Basic/0/0/?ref=home">Difficulty Level - Basic</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Easy/0/0/?ref=home">Difficulty Level - Easy</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Medium/0/0/?ref=home">Difficulty Level - Medium</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/Hard/0/0/?ref=home">Difficulty Level - Hard</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/pickACategory.php?ref=home">How to pick a difficulty level?</a></td>
+</tr>
+
+<tr>
+<td><a href="https://practice.geeksforgeeks.org/?ref=home">Explore More...</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Programming Languages</b></td>
+</tr>
+
+<tr>
+<td><a href="../c/index.html">C</a></td>
+</tr>
+
+<tr>
+<td><a href="../c-plus-plus/index.html">C++</a></td>
+</tr>
+
+<tr>
+<td><a href="index.html">Java</a></td>
+</tr>
+
+<tr>
+<td><a href="../python/index.html">Python</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../sql-tutorial/index.html">SQL</a></td>
+</tr>
+
+
+<tr>
+<td class="quickLink-header_S"><b>Important Quick Links</b></td>
+</tr>
+
+<tr>
+<td><a href="../school-programming/index.html">School Programming</a></td>
+</tr>
+
+<tr>
+<td><a href="../operating-systems/index.html">Operating Systems</a></td>
+</tr>
+
+<tr>
+<td><a href="../dbms/index.html">DBMS</a></td>
+</tr>
+
+<tr>
+<td><a href="../computer-network-tutorials/index.html">Computer Networks</a></td>
+</tr>
+
+<tr>
+<td><a href="../engineering-mathematics-tutorials/index.html">Engineering Mathematics</a></td>
+</tr>
+
+<tr>
+<td><a href="../category/design-pattern/index.html">Design Patterns</a></td>
+</tr>
+
+<tr>
+<td><a href="../category/puzzles/index.html">Common Interview Puzzles</a></td>
+</tr>
+
+
+<tr>
+<td><a href="../web-technology/index.html">Web Technology</a></td>
+
+<tr>
+<td><a href="../category/gfact/index.html">G-Facts</a></td>
+</tr>
+
+<tr>
+<td><a href="../tag/computer-graphics/index.html">Computer Graphics</a></td>
+</tr>
+
+<tr>
+<td><a href="../image-processing/index.html">Image Processing</a></td>
+</tr>
+
+<tr>
+<td><a href="../category/project/index.html">Project Ideas</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>    </div>
+</div>
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+	<article id="post-126247" class="post-126247 page type-page status-publish hentry">
+		<div class="entry-content">
+		<header class="entry-header">
+			<h1 class="entry-title" style="display:inline">Java Programming Language</h1>
+		</header>
+			<div class="AppSection" parentname="Languages" name = "Java"></div>
+<p><a style="padding: 5px; background-color: #4cb96b; color: #fff;" href="http://www.geeksforgeeks.org/category/java/"><strong>Recent articles</strong></a>     <a style="padding: 5px; background-color: #4cb96b; color: #fff;" href="http://www.geeksforgeeks.org/java-multiple-choice-questions/"><strong>Java Output Questions and MCQ</strong></a></p>
+<p><a href="#Overview">Overview</a>, <a href="#Basics">Basics</a>,   <a href="#OOP concepts">OOP concepts</a>,   <a href="#Operators">Operators</a>,   <a href="#Strings in Java">Strings</a>,   <a href="#Input and Output">Input and Output</a>, <a href="#Arrays in Java">Arrays </a>, <a href="#Arrays Class">Arrays Class</a>,  <a href="#Important Keywords">Important Keywords in Java </a>,<a href="#Java vs C++">Java vs C++</a>,   <a href="#Methods in Java">Methods in Java</a>,   <a href="#Constructors">Constructors</a>,   <a href="#Exception Handling">Exception Handling</a>, <a href="#Regular Expressions">Regular Expressions</a>, <a href="#Inheritance">Inheritance</a>, <a href="#Interfaces and Abstract Classes">Interfaces and Abstract Classes</a>, <a href="#Packages">Java Packages</a>, <a href="#Multithreading">Multithreading</a>,   <a href="#Garbage Collection">Garbage Collection</a>, <a href="#Wrapper Classes">Wrapper Classes</a>, <a href="#Reflection in Java">Reflection in Java</a>,   <a href="#File Handling">File Handling</a>,   <a href="#Collection in Java">Collection in Java</a>, <a href="#Collection Interview FAQ's">Collection Interview FAQ&#8217;s</a>  ,<a href="#Collections Class">Collections Class (Contains utility functions on Collections)</a>,   <a href="#Useful and/or Advanced Features">Useful and/or Advanced Features</a>,   <a href="#Image Processing">Image Processing</a>,  <a href="#Networking in Java">Networking in Java</a>, <a href="#Interview Questions">Interview Questions</a>, <a href="#Misc">Misc</a>, <a href="http://www.geeksforgeeks.org/java-multiple-choice-questions/">Multiple Choice Questions</a></p>
+<div style="width: 50%; float: left;"><center><strong><a name="Overview"></a>Overview</strong></center></p>
+<div class = "Overview">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/setting-environment-java/">Setting up the environment </a></li>
+<li><a href="http://www.geeksforgeeks.org/beginning-java-programming-with-hello-world-example/">The Hello World Example</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-hello-world/0">Practice</a>)</li>
+<li><a href="http://www.geeksforgeeks.org/java-naming-conventions/">Java Naming Conventions</a></li>
+<li><a href="http://www.geeksforgeeks.org/jvm-works-jvm-architecture/">JVM</a></li>
+<li><a href="http://www.geeksforgeeks.org/differences-jdk-jre-jvm/">Differences between JDK, JRE and JVM</a></li>
+<li><a title="Permalink to Does JVM create object of Main class (the class with main())?" href="http://www.geeksforgeeks.org/jvm-create-object-main-class-class-contains-main/" rel="bookmark">Does JVM create object of Main class?</a></li>
+<li><a href="http://www.geeksforgeeks.org/main-method-compulsory-java/">Is main method compulsory in Java?</a></li>
+<li><a title="Permalink to Myth about the file name and class name in java" href="http://www.geeksforgeeks.org/myth-file-name-class-name-java/" rel="bookmark">File names and class names</a></li>
+<li><a href="http://www.geeksforgeeks.org/run-java-class-file-different-directory/">How to run java class file which is in different directory?</a></li>
+<li><a href="http://www.geeksforgeeks.org/using-predefined-class-name-class-variable-name-java/">Using predefined class name as Class or Variable name in Java</a></li>
+</ul>
+</div>
+<p><center><strong><a name="Basics"></a>Basics</strong></center></p>
+<div class = "Basics">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/java-identifiers/">Java Identifiers</a></li>
+<li><a title="Permalink to Data types in Java" href="http://www.geeksforgeeks.org/data-types-java/" rel="bookmark">Data types</a></li>
+<li><a href="http://www.geeksforgeeks.org/enum-in-java/">How to define our own data type in java(enum)</a></li>
+<li><a href="http://www.geeksforgeeks.org/variables-in-java/">Variables</a></li>
+<li><a href="http://www.geeksforgeeks.org/variable-scope-in-java/">Scope of Variables</a></li>
+<li><a href="http://www.geeksforgeeks.org/loops-in-java/">Loops in Java</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-loops-set-1/0">Practice</a>)</li>
+<li><a href="http://www.geeksforgeeks.org/for-each-loop-in-java/">For-each loop in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/loop-java-important-points/">For Loop in Java | Important points</a></li>
+<li><a href="http://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/">Decision Making(if, if-else, switch, break, continue, jump)</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/playing-with-mobile-numbers/0">Practice</a>)</li>
+<li><a href="http://www.geeksforgeeks.org/switch-statement-in-java/">Switch Statement in Java</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-switch-case-statement/0">Practice</a>)</li>
+<li><a href="http://www.geeksforgeeks.org/string-in-switch-case-in-java/">String in Switch Case in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/do-we-need-forward-declarations-in-java/">Forward declarations</a></li>
+<li><a title="Permalink to G- Fact 28 (Widening Primitive Conversion -Java)" href="http://www.geeksforgeeks.org/g-fact-28-widening-primitive-conversion-java/" rel="bookmark">Widening Primitive Conversion </a></li>
+<li><a title="Permalink to Type conversion in Java with Examples" href="http://www.geeksforgeeks.org/type-conversion-java-examples/" rel="bookmark">Type conversion in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/comments-in-java/">Comments in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-64/">Does Java support goto? </a></li>
+<li><a href="http://www.geeksforgeeks.org/interesting-facts-about-null-in-java/">Interesting facts about null in Java</a></li>
+<li><a title="Permalink to G-Fact 45 | Using underscore in Numeric Literals" href="http://www.geeksforgeeks.org/g-fact-45-using-underscore-in-numeric-literals/" rel="bookmark">Using underscore in Numeric Literals</a></li>
+</ul>
+</div>
+<p><center><strong><a name="OOP concepts"></a>OOP concepts</strong></center></p>
+<div class = "OOP concepts">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/classes-objects-java/">Classes and Objects</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-46/">Java object storage</a></li>
+<li><a href="http://www.geeksforgeeks.org/different-ways-create-objects-java/">Different ways to create objects in Java</a></li>
+<li><a title="Permalink to How to swap or exchange objects in Java?" href="http://www.geeksforgeeks.org/swap-exchange-objects-java/" rel="bookmark">How to swap or exchange objects</a></li>
+<li><a href="http://www.geeksforgeeks.org/inheritance-in-java/">Inheritance in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/encapsulation-in-java/">Encapsulation in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/abstraction-in-java-2/">Abstraction in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/dynamic-method-dispatch-runtime-polymorphism-java/">Run-time Polymorphism in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/association-composition-aggregation-java/">Association,Composition and Aggregation</a></li>
+<li><a href="http://www.geeksforgeeks.org/access-and-non-access-modifiers-in-java/">Access and Non Access Modifiers in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/access-modifiers-java/">Access Modifiers</a></li>
+<li><a href="http://geeksquiz.com/this-reference-in-java/">this reference</a></li>
+<li><a href="http://www.geeksforgeeks.org/overloading-in-java/">Method Overloading</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-java-program-set-22-overloading/">Output of Java program | Set 22 (Overloading)</a></li>
+<li><a href="http://www.geeksforgeeks.org/overriding-in-java/">Method Overriding</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-java-program-set-18-overriding/">Output of Java program | Set 18 (Overriding)</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-63/">Shadowing of static methods(Also called Method Hiding)</a></li>
+<li><a href="http://www.geeksforgeeks.org/covariant-return-types-java/">Covariant return types</a></li>
+<li><a href="http://www.geeksforgeeks.org/object-class-in-java/">Object class</a></li>
+<li><a title="Permalink to Flexible nature of java.lang.Object" href="http://www.geeksforgeeks.org/flexible-nature-of-java-lang-object/" rel="bookmark">Flexible nature of java.lang.Object</a></li>
+<li><a href="http://www.geeksforgeeks.org/overriding-equals-method-in-java/">Overriding equals method of Object class</a></li>
+<li><a href="http://www.geeksforgeeks.org/overriding-tostring-method-in-java/">Overriding toString() method of Object class</a></li>
+<li><a title="Permalink to G-Fact 46 | Instance Variable Hiding in Java" href="http://www.geeksforgeeks.org/g-fact-46-instance-variable-hiding-in-java/" rel="bookmark">Instance Variable Hiding </a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-26-the-initializer-block-in-java/">initializer block in java(static block)</a></li>
+<li><a href="http://www.geeksforgeeks.org/instance-initialization-block-iib-java/">instance initializer block in java(non-static block)</a></li>
+<li><a href="http://www.geeksforgeeks.org/static-vs-dynamic-binding-in-java/">Static vs Dynamic Binding</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-not-purely-object-oriented-language/">Why Java is not a purely Object-Oriented Language?</a></li>
+</ul>
+</div>
+<p><center><a name="Operators"></a><strong>Operators</strong></center></p>
+<div class = "Operators">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/operators-in-java/">All Operators</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-operatorsarithmetic-set-1/0">Practice</a>)</li>
+<li><a href="http://www.geeksforgeeks.org/bitwise-shift-operators-in-java/">Bitwise right shift operators</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-instanceof-and-its-applications/">Java instanceof operator and its applications</a></li>
+<li><a title="Permanent link to Comparison of Autoboxed Integer objects in Java" href="http://www.geeksforgeeks.org/comparison-autoboxed-integer-objects-java/" rel="bookmark">Autoboxed Integer objects</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-23-addition-and-concatenation-in-java/">Addition and Concatenation</a></li>
+<li><a title="Permalink to Java Numeric Promotion in Conditional Expression" href="http://www.geeksforgeeks.org/numeric-promotion-in-conditional-expression/" rel="bookmark">Numeric Promotion in Conditional Expression</a></li>
+</ul>
+</div>
+<p><center><a name="Strings in Java"></a><strong>Strings in Java</strong></center></p>
+<div class = "Strings in Java">
+<ul>
+<li><a title="Permalink to String Class in Java" href="http://geeksquiz.com/string-class-in-java/" rel="bookmark">String Class</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-strings-set-1/0">Practice</a>)</li>
+<li><a title="Permalink to StringBuffer Class in Java" href="http://www.geeksforgeeks.org/stringbuffer-class-in-java/" rel="bookmark">StringBuffer Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/how-to-initialize-and-compare-strings-in-java/">Initialize and Compare Strings </a></li>
+<li><a title="Permalink to StringTokenizer class in Java with example | Set 1 ( Constructors)" href="http://www.geeksforgeeks.org/stringtokenizer-class-java-example-set-1-constructors/" rel="bookmark">StringTokenizer class</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-27-string-vs-stringbuilder-vs-stringbuffer/">String vs StringBuilder vs StringBuffer</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-util-stringjoiner-java8/">StringJoiner in Java8</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-util-stringjoiner-java8/">When to use StringJoiner over StringBuilder?</a></li>
+<li><a href="http://www.geeksforgeeks.org/different-ways-for-integer-to-string-conversions-in-java/">Integer to String Conversions</a></li>
+<li><a title="Permalink to String to Integer in Java – parseInt()" href="http://www.geeksforgeeks.org/string-to-integer-in-java-parseint/" rel="bookmark">String to Integer– parseInt()</a></li>
+<li><a title="Permalink to Split() String method in Java with examples" href="http://www.geeksforgeeks.org/split-string-java-examples/" rel="bookmark">Split() String method</a></li>
+<li><a title="Permalink to Swap two Strings without using third user defined variable in Java" href="http://www.geeksforgeeks.org/swap-two-strings-without-using-third-user-defined-variable-in-java/" rel="bookmark">Swap two Strings without using third variable </a></li>
+<li><a href="http://www.geeksforgeeks.org/searching-for-character-and-substring-in-a-string/">Searching characters and substring in a String</a></li>
+<li><a href="http://www.geeksforgeeks.org/reverse-a-string-in-java-5-different-ways/">Reverse a string in Java (5 Different Ways)</a></li>
+<li><a href="http://www.geeksforgeeks.org/remove-trailing-zeros-string-java/">Remove Trailing Zeros From String in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/counting-number-lines-words-characters-paragraphs-text-file-using-java/">Counting number of lines, words, characters and paragraphs in a text file using Java</a></li>
+</ul>
+</div>
+<p><center><a name="Input and Output"></a><strong>Input and Output</strong></center></p>
+<div class = "Input and Output">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/command-line-arguments-in-java/">Command Line arguments</a></li>
+<li><a title="Permalink to Scanner Class in Java" href="http://www.geeksforgeeks.org/scanner-class-in-java/" rel="bookmark">Scanner Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/ways-to-read-input-from-console-in-java/">Ways to read input from console in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/gfact-51-java-scanner-nextchar/">Scanner and nextChar()</a></li>
+<li><a title="Permalink to Difference between Scanner and BufferReader Class in Java" href="http://www.geeksforgeeks.org/difference-between-scanner-and-bufferreader-class-in-java/" rel="bookmark">Scanner vs BufferReader Class</a></li>
+<li><a title="Permalink to Formatted output in Java" href="http://www.geeksforgeeks.org/formatted-output-in-java/" rel="bookmark">Formatted output</a></li>
+<li><a title="Permalink to Fast I/O in Java in Competitive Programming" href="http://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/" rel="bookmark">Fast I/O for Competitive Programming</a></li>
+<li><a href="http://www.geeksforgeeks.org/ways-to-read-input-from-console-in-java/">Reading input from console</a></li>
+</ul>
+</div>
+<p><center><a name="Arrays in Java"></a><strong>Arrays in Java</strong></center></p>
+<div class = "Arrays in Java">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/arrays-in-java/">Arrays in Java</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-arrays-set-1/0">Practice</a>)</li>
+<li><a title="Permalink to Default array values in Java" href="http://www.geeksforgeeks.org/default-array-values-in-java/" rel="bookmark">Default Array values</a></li>
+<li><a href="http://www.geeksforgeeks.org/compare-two-arrays-java/">Compare two arrays </a></li>
+<li><a href="http://www.geeksforgeeks.org/final-arrays-in-java/">Final arrays</a></li>
+<li><a title="Permalink to Jagged Array in Java" href="http://www.geeksforgeeks.org/jagged-array-in-java/" rel="bookmark">Jagged Array</a></li>
+<li><a href="http://www.geeksforgeeks.org/understanding-array-indexoutofbounds-exception-in-java/">Array IndexOutofbounds Exception</a></li>
+<li><a title="Permalink to Array vs ArrayList in Java" href="http://www.geeksforgeeks.org/array-vs-arraylist-in-java/" rel="bookmark">Array vs ArrayList in Java</a></li>
+<li><a title="Permalink to ArrayList to Array Conversion in Java : toArray() Methods" href="http://www.geeksforgeeks.org/arraylist-array-conversion-java-toarray-methods/" rel="bookmark">ArrayList to Array Conversion </a></li>
+<li><a href="http://www.geeksforgeeks.org/custom-arraylist-java/">Custom ArrayList in Java</a></li>
+</ul>
+</div>
+<p><center><a name="Arrays Class"></a><strong>Arrays Class (Contains utility functions for Arrays)</strong></center></p>
+<div class = "Arrays Class">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/array-class-in-java/">Array class</a></li>
+<li><a title="Permalink to Arrays.toString() in Java with Examples" href="http://www.geeksforgeeks.org/arrays-tostring-in-java-with-examples/" rel="bookmark">Arrays.toString()</a></li>
+<li><a title="Permalink to Arrays.deepToString() in Java with Example" href="http://www.geeksforgeeks.org/arrays-deeptostring-in-java-with-example/" rel="bookmark">Arrays.deepToString()</a></li>
+<li><a title="Permalink to Arrays.equals() in Java with Example" href="http://www.geeksforgeeks.org/java-util-arrays-equals-java-examples/" rel="bookmark">Arrays.equals()</a></li>
+<li><a title="Permalink to Arrays.fill() in Java with Examples" href="http://www.geeksforgeeks.org/arrays-fill-java-examples/" rel="bookmark">Arrays.fill()</a></li>
+<li><a title="Permalink to Arrays.sort() in Java with examples" href="http://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/" rel="bookmark">Arrays.sort() </a></li>
+<li><a title="Permalink to java.util.Arrays.copyof() in Java with examples" href="http://www.geeksforgeeks.org/java-util-arrays-copyof-java-examples/" rel="bookmark">Arrays.copyof()</a></li>
+<li>Arrays.binarySearch() &#8211; <a title="Permalink to Arrays.binarySearch() in Java with examples | Set 1" href="http://www.geeksforgeeks.org/arrays-binarysearch-java-examples-set-1/" rel="bookmark"> Set 1</a> <a title="Permalink to Arrays.binarySearch() in Java with examples | Set 2 (Search in subarray)" href="http://www.geeksforgeeks.org/arrays-binarysearch-in-java-with-examples-set-2-search-in-subarray/" rel="bookmark"> Set 2 </a></li>
+</ul>
+</div>
+<p><center><a name="Important Keywords"></a><strong>Important Keywords</strong></center></p>
+<div class = "Important Keywords">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/important-keywords-java/">Important Keywords in Java</a></li>
+<li><a href="http://geeksquiz.com/this-reference-in-java/">this keyword</a></li>
+<li><a href="http://geeksquiz.com/super-keyword/">super Keyword</a></li>
+<li><a href="http://www.geeksforgeeks.org/static-keyword-java/">static keyword </a></li>
+<li><a title="Permanent link to “final” keyword in java" href="http://geeksquiz.com/final-keyword-java/" rel="bookmark">final keyword</a></li>
+<li><a href="http://www.geeksforgeeks.org/abstract-keyword-in-java/">abstract Keyword</a></li>
+<li><a href="http://www.geeksforgeeks.org/transient-keyword-java/">transient keyword in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/volatile-keyword-in-java/">volatile keyword in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/strictfp-keyword-java/">strictfp keyword</a></li>
+</ul>
+</div>
+<p><center><a name="Java vs C++"></a><strong>C++ vs Java</strong></center></p>
+<div class = "Java vs C++">
+<ul>
+<li><a title="Permanent link to What are C++ features missing in Java?" href="http://geeksquiz.com/c-features-missing-java/" rel="bookmark">C++ vs Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/static-keyword-in-java/">Static keyword in C++ vs Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/comparison-of-exception-handling-in-c-and-java/">Exception Handling in C++ vs Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/comparison-of-inheritance-in-c-and-java/">Inheritance in C++ vs Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-43/">Virtual behavior differ in C++ vs Java</a></li>
+<li><a title="Permalink to G-Fact 40 (Foreach in C++ and Java)" href="http://www.geeksforgeeks.org/g-fact-40-foreach-in-c-and-java/" rel="bookmark">Foreach in C++ and Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/is-there-any-concept-of-pointers-in-java/">C/C++ Pointers vs Java References</a></li>
+<li><a href=http://www.geeksforgeeks.org/comparison-boolean-data-type-c-java/>Comparison of boolean data type in C++ and Java</a></li>
+</ul>
+</div>
+<p><center><a name="Methods in Java"></a><strong>Methods in Java</strong></center></p>
+<div class  = "Methods in Java">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/g-fact-45/">Parameters passing</a></li>
+<li><a title="Permalink to Returning Multiple values in Java" href="http://www.geeksforgeeks.org/returning-multiple-values-in-java/" rel="bookmark">Returning Multiple values</a></li>
+<li><a href="http://www.geeksforgeeks.org/overloading-in-java/">Method Overloading</a></li>
+<li><a href="http://www.geeksforgeeks.org/different-ways-method-overloading-java/">Different ways of Method Overloading in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/overriding-equals-method-in-java/">Overriding equals method</a></li>
+<li><a href="http://www.geeksforgeeks.org/overriding-tostring-method-in-java/">Overriding toString() method</a></li>
+<li><a href="http://www.geeksforgeeks.org/private-and-final-methods-in-java/">Private and final methods</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-31-java-is-strictly-pass-by-value/">Java is Strictly Pass by Value</a></li>
+<li><a title="Permalink to GFact 48 | Overloading main() in Java" href="http://www.geeksforgeeks.org/gfact-48-overloading-main-in-java/" rel="bookmark">Overloading main()</a></li>
+<li><a title="Permalink to Valid variants of main() in Java" href="http://www.geeksforgeeks.org/valid-variants-main-java/" rel="bookmark">Valid variants of main()</a></li>
+<li><a title="Permalink to Variable Arguments (Varargs) in Java" href="http://www.geeksforgeeks.org/variable-arguments-varargs-in-java/" rel="bookmark">Variable Arguments (Varargs) method</a></li>
+<li><a href="http://www.geeksforgeeks.org/clone-method-in-java-2/">Clone() method</a></li>
+<li><a href="http://www.geeksforgeeks.org/remote-method-invocation-in-java/">Remote Method Invocation</a></li>
+<li><a href="http://www.geeksforgeeks.org/default-methods-java/">Default Methods</a></li>
+<li><a href="http://www.geeksforgeeks.org/method-overloading-null-error-java/">Method overloading and null error</a></li>
+<li><a href="http://www.geeksforgeeks.org/method-overloading-autoboxing-widening-java/">Method Overloading with Autoboxing and Widening</a></li>
+<li><a href="http://www.geeksforgeeks.org/passing-and-returning-objects-in-java/">Passing and Returning Objects in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/system-exit-in-java/">System.exit() method</a></li>
+</ul>
+</div>
+<p><center><a name="Constructors"></a><strong>Constructors</strong></center></p>
+<div class = "Constructors">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/constructors-in-java/">Constructors in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-50/">Default constructor</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-55/">Assigning values to static final variables</a></li>
+<li><a href="http://www.geeksforgeeks.org/copy-constructor-in-java/">Copy Constructor</a></li>
+<li><a title="Permalink to Constructor Chaining In Java with Examples" href="http://www.geeksforgeeks.org/constructor-chaining-java-examples/" rel="bookmark">Constructor Chaining</a></li>
+<li><a title="Permalink to Private Constructors and Singleton Classes in Java" href="http://www.geeksforgeeks.org/private-constructors-and-singleton-classes-in-java/" rel="bookmark">Private Constructors and Singleton Classes</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-interview-questions-constructors/">Java Interview Questions on Constructors</a></li>
+<li><a href="http://www.geeksforgeeks.org/singleton-class-java/">Singleton Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/constructor-overloading-java/">Constructor Overloading</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-java-programs-set-14-constructors/">Output of Java Programs | Set 14 (Constructors)</a></li>
+</ul>
+</div>
+<p><center><a name="Exception Handling"></a><strong>Exception Handling </strong></center></p>
+<div class="Exception Handling">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/exceptions-in-java/">Exceptions</a></li>
+<li><a href="http://www.geeksforgeeks.org/3-different-ways-print-exception-messages-java/">3 Different ways to print Exception messages in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/flow-control-in-try-catch-finally-in-java/"> flow control in try-catch-finally</a></li>
+<li><a href="http://www.geeksforgeeks.org/types-of-exception-in-java-with-examples/">Types of Exceptions</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-60/">Catching base and derived classes as exceptions</a></li>
+<li><a href="http://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/">Checked vs Unchecked Exceptions</a></li>
+<li><a href="http://www.geeksforgeeks.org/throw-throws-java/">Throw and Throws</a></li>
+<li><a title="Permalink to G-Fact 32 (User-defined Custom Exception in Java)" href="http://www.geeksforgeeks.org/g-fact-32-user-defined-custom-exception-in-java/" rel="bookmark">User-defined Custom Exception</a></li>
+<li><a title="Permalink to G-Fact 33 (Infinitypa or Exception?)" href="http://www.geeksforgeeks.org/g-fact-33-infinity-or-exception/" rel="bookmark">Infinity or Exception?</a></li>
+<li><a title="Permalink to Multicatch in Java" href="http://www.geeksforgeeks.org/multicatch-in-java/" rel="bookmark">Multicatch</a></li>
+<li><a title="Permalink to Chained Exceptions in Java" href="http://www.geeksforgeeks.org/chained-exceptions-java/" rel="bookmark">Chained Exceptions</a></li>
+<li><a href="http://www.geeksforgeeks.org/null-pointer-exception-in-java/">Null Pointer Exception</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-java-program-set-12exception-handling/">Output of Java program | Set 12(Exception Handling)</a></li>
+</ul>
+</div>
+<p><center><a name="Regular Expressions"></a><strong>Regular Expressions</strong></center></p>
+<div class = "Regular Expressions">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/write-regular-expressions/">How to write Regular Expressions?</a></li>
+<li><a title="Permalink to Regular Expressions in Java" href="http://www.geeksforgeeks.org/regular-expressions-in-java/" rel="bookmark">Regular Expression(java.util.regex)</a></li>
+<li><a href="http://www.geeksforgeeks.org/quantifiers-in-java/">Quantifiers</a></li>
+</ul>
+</div>
+<p><center><a name="Inheritance"></a><strong>Inheritance</strong></center></p>
+<div class = "Inheritance">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/inheritance-in-java/">Inheritance in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-and-multiple-inheritance/">Multiple Inheritance</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-and-multiple-inheritance/">Why Java does&#8217;nt support Multiple Inheritance &#8211; The Diamond Problem </a></li>
+<li><a href="http://www.geeksforgeeks.org/gfact-52-java-object-creation-of-inherited-classes/">Java Object Creation of Inherited Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-67/">Inheritance and constructors</a></li>
+<li><a href="http://www.geeksforgeeks.org/interfaces-and-inheritance-in-java/">Interfaces and Inheritance</a></li>
+<li><a href="http://www.geeksforgeeks.org/using-final-with-inheritance-in-java/">Using final with Inheritance</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-91/">Accessing Grandparent’s member</a></li>
+<li><a href="http://www.geeksforgeeks.org/can-override-private-methods-java/">Override private methods</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-69/">More restrictive access to a derived class method in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/parent-and-child-classes-having-same-data-member-in-java/">Parent and Child classes having same data member </a></li>
+<li><a href="http://www.geeksforgeeks.org/object-serialization-inheritance-java/">Object Serialization with Inheritance</a></li>
+<li><a href="http://www.geeksforgeeks.org/referencing-subclass-objects-subclass-vs-superclass-reference/">Referencing Subclass objects with Subclass vs Superclass reference</a></li>
+<li><a href="http://www.geeksforgeeks.org/does-overloading-work-with-inheritance/">Does overloading work with inheritance</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-java-program-set-20-inheritance/">Output of Java Program | Set 20 (Inheritance)</a></li>
+</ul>
+</div>
+</div>
+<div style="width: 50%; float: right;">
+<center><a name="Interfaces and Abstract Classes"></a><strong>Interfaces and Abstract Classes</strong></center></p>
+<div class = "Interfaces and Abstract Classes">
+<ul>
+<li><a href="http://geeksquiz.com/interfaces-in-java/">Interfaces</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-73/">Access specifier for methods in interfaces</a></li>
+<li><a href="http://www.geeksforgeeks.org/g-fact-81/">Access specifiers for classes or interfaces</a></li>
+<li><a href="http://www.geeksforgeeks.org/abstract-classes-in-java/">Abstract Classes</a></li>
+<li><a href="http://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/">Difference between Abstract Class and Interface in Java</a></li>
+<li><a title="Permalink to Comparator Interface in Java" href="http://www.geeksforgeeks.org/comparator-interface-java/" rel="bookmark">Comparator Interface</a></li>
+<li><a title="Permalink to G-Fact 47 | (Java Interface methods)" href="http://www.geeksforgeeks.org/g-fact-47-java-interface-methods/" rel="bookmark">Java Interface methods</a></li>
+<li><a title="Permalink to Nested Interface in Java" href="http://www.geeksforgeeks.org/interface-nested-class-another-interface/" rel="bookmark">Nested Interface</a></li>
+<li><a href="http://www.geeksforgeeks.org/nested-classes-java/">Nested Classes in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/local-inner-class-java/">Local Inner Class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/anonymous-inner-class-java/">Anonymous Inner Class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/functional-interfaces-java/">Functional Interfaces</a></li>
+<li><a href="http://www.geeksforgeeks.org/marker-interface-java/">What is a Marker interface</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-gq/abstract-class-and-interface-in-java-gq/">Questions on Abstract Classes and Interfaces</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-java-program-set-10-inner-classes/">Output of Java program | Set 15 (Inner Classes)</a></li>
+</ul>
+</div>
+<p><center><a name="Packages"></a><strong>Java Packages</strong></center></p>
+<div class = "Packages">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/packages-in-java/">Packages Introduction</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-io-packag/">java.io package</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-package-java/">java.lang package</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-util-package-java/">java.util package</a></li>
+</ul>
+</div>
+<p><center><a name="Multithreading"></a><strong>Multithreading</strong></center></p>
+<div class = "Multithreading">
+<ul>
+<li><a href="http://geeksquiz.com/multithreading-in-java/">Multithreading</a></li>
+<li><a href="http://www.geeksforgeeks.org/lifecycle-and-states-of-a-thread-in-java/">Lifecycle and states of a thread</a></li>
+<li><a href="http://www.geeksforgeeks.org/main-thread-java/">Main thread</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-concurrency-yield-sleep-and-join-methods/">Methods to prevent thread execution</a></li>
+<li><a href="http://www.geeksforgeeks.org/inter-thread-communication-java/">inter thread communication</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-thread-class-java/">Java.lang.Thread class</a></li>
+<li><a title="Permalink to What does start() function do in multithreading in Java?" href="http://www.geeksforgeeks.org/start-function-multithreading-java/" rel="bookmark">Start() function in multithreading </a></li>
+<li><a title="Permalink to Java Thread Priority in Multithreading" href="http://www.geeksforgeeks.org/java-thread-priority-multithreading/" rel="bookmark">Java Thread Priority</a></li>
+<li><a href="http://www.geeksforgeeks.org/joining-threads-in-java/">Joining Threads in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/naming-thread-fetching-name-current-thread-java/">Naming a thread and fetching name of current thread in Java</a></li>
+<li><a title="Permalink to Synchronized in Java" href="http://geeksquiz.com/synchronized-in-java/" rel="bookmark">Synchronization</a></li>
+<li><a href="http://www.geeksforgeeks.org/method-block-synchronization-java/">Method and Block Synchronization</a></li>
+<li><a href="http://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/">Producer-Consumer solution</a></li>
+<li><a href="http://www.geeksforgeeks.org/thread-pools-java/">Thread Pools in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/semaphore-in-java/">Semaphore in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-util-concurrent-semaphore-class-java/">Java.util.concurrent.Semaphore class in Java</a></li>
+<li><a title="Permalink to CountDownLatch in Java" href="http://www.geeksforgeeks.org/countdownlatch-in-java/" rel="bookmark">CountDownLatch</a></li>
+<li><a href="http://www.geeksforgeeks.org/deadlock-in-java-multithreading/">Deadlock in java</a></li>
+<li><a href="http://www.geeksforgeeks.org/daemon-thread-java/">Daemon thread</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-util-concurrent-cyclicbarrier-java/">Cyclic Barrier in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/callable-future-java/">Callable and Future in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/jvm-shutdown-hook-java/">Shutdown Hook in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-runtime-class-in-java/">Runtime Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-of-java-program-set-16-threads/">Output of Java program | Set 16 (Threads)</a></li>
+</ul>
+</div>
+<p><center><a name="Garbage Collection"></a><strong>Garbage Collection</strong></center></p>
+<div class = "Garbage Collection">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/garbage-collection-java/">Garbage Collection</a></li>
+<li><a href="http://www.geeksforgeeks.org/how-to-make-object-eligible-for-garbage-collection/">How to make object eligible for garbage collection in Java?</a></li>
+<li><a href="http://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/">Mark-and-Sweep</a></li>
+<li><a href="http://www.geeksforgeeks.org/island-of-isolation-in-java/">Island of Isolation</a></li>
+<li><a href="http://www.geeksforgeeks.org/automatic-resource-management-java/">Automatic Resource Management</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-of-java-programs-set-10-garbage-collection/">Output of Java programs | Set 10 (Garbage Collection)</a></li>
+</ul>
+</div>
+<p><center><a name="Wrapper Classes"></a><strong>Wrapper Classes</strong></center></p>
+<div class = "Wrapper Classes">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/wrapper-classes-java/">Wrapper Classes in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/primitive-wrapper-classes-are-immutable-in-java/">Primitive Wrapper Classes are Immutable in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-number-class-java/">Number Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-integer-class-java/">Integer class </a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-byte-class-java/">Byte class </a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-short-class-java/">Short class </a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-long-class-in-java/">Long class</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-float-class-in-java/">Float class</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-double-class-java/">Double class</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-lang-boolean-class-java/">Boolean Class </a></li>
+<li><a href="http://www.geeksforgeeks.org/character-class-java/">Character Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/autoboxing-unboxing-java/">Autoboxing and Unboxing in Java</a></li>
+</ul>
+</div>
+<p><center><a name="Reflection in Java"></a><strong>Reflection in Java</strong></center></p>
+<div class = "Reflection in Java">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/reflection-in-java/">Reflection in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/new-operator-vs-newinstance-method-java/">new operator vs newInstance()</a></li>
+<li><a href="http://www.geeksforgeeks.org/instanceof-operator-vs-isinstance-method-in-java/">instanceof operator vs isInstance() </a><a name="File Handling"></a></li>
+</ul>
+</div>
+<p><center><strong>File Handling</strong></center></p>
+<div class = "File Handling">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/file-class-in-java/">File class</a></li>
+<li><a href="http://www.geeksforgeeks.org/different-ways-reading-text-file-java/"> Ways of Reading a text file in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/file-permissions-java/">file permissions in java</a></li>
+<li><a href="http://www.geeksforgeeks.org/moving-file-one-directory-another-using-java/">Moving a file from one directory to another using Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/copy-file-using-filestreams-java/">Copying file using FileStreams</a></li>
+<li><a href="http://www.geeksforgeeks.org/delete-file-using-java/">Delete a file using Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-program-delete-duplicate-lines-text-file/">Java program to delete duplicate lines in text file</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-program-merge-two-files-alternatively-third-file-2/">Java program to merge two files alternatively into third file</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-program-list-files-directory-nested-sub-directories-recursive-approach/">Java program to List all files in a directory and nested sub-directories | Recursive approach</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-program-delete-certain-text-file/">Java program to delete certain text from a file</a></li>
+<li><a href="http://www.geeksforgeeks.org/check-file-hidden-java/">Check if a File is hidden in Java</a></li>
+<li><a title="Permalink to Redirecting System.out.println() output to a file in Java" href="http://www.geeksforgeeks.org/redirecting-system-out-println-output-to-a-file-in-java/" rel="bookmark">Redirecting System.out.println() output to a file</a></li>
+</ul>
+</div>
+<p><center><a name="Collection in Java"></a><strong>Collection in Java</strong></center></p>
+<div class = "Collection in Java">
+<ul>
+<li><a title="Permalink to Collections in Java" href="http://www.geeksforgeeks.org/collections-in-java-2/" rel="bookmark">Collection Overview</a></li>
+<li><a href="http://www.geeksforgeeks.org/iterators-in-java/">Iterators</a></li>
+<li><a href="http://geeksquiz.com/how-to-use-iterator-in-java/">Using Iterators</a>
+<li><a title="Permalink to Iterator vs Foreach In Java" href="http://www.geeksforgeeks.org/iterator-vs-foreach-in-java/" rel="bookmark">Iterator vs Foreach</a></li>
+<li><a title="Permalink to Retrieving Elements from Collection in Java (For-each,Iterator,ListIterator &#038; EnumerationIterator)" href="http://www.geeksforgeeks.org/retrieving-elements-from-collection-for-each-iterator-listiterator-enumerationiterator/" rel="bookmark">Types of iterator</a></li>
+<li><a title="Permalink to List Interface in Java with Examples" href="http://www.geeksforgeeks.org/list-interface-java-examples/" rel="bookmark"><strong>List Interface</strong></a>
+<ul>
+        List implemented classes :</p>
+<li><a href="http://www.geeksforgeeks.org/arraylist-in-java/">ArrayList</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-collection-set-1-arraylist/1">Practice</a>)</li>
+<li><a title="Permalink to Linked List in java" href="http://geeksquiz.com/linked-list-in-java/" rel="bookmark">LinkedList class</a></li>
+<li><a title="Permalink to Vector in java" href="http://www.geeksforgeeks.org/java-util-vector-class-java/" rel="bookmark">Vector class</a></li>
+<li><a href="http://www.geeksforgeeks.org/stack-class-in-java/">Stack Class </a></li>
+</ul>
+</li>
+<li><a title="Permalink to Set in Java" href="http://geeksquiz.com/set-in-java/" rel="bookmark"><strong>Set Interface</strong></a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-collection-set-2-set/1">Practice</a>)
+<ul>
+        Set implemented classes :</p>
+<li><a title="Permalink to HashSet in Java" href="http://geeksquiz.com/hashset-in-java/" rel="bookmark">HashSet</a></li>
+<li><a title="Permalink to LinkedHashSet class in Java with Examples" href="http://www.geeksforgeeks.org/linkedhashset-class-in-java-with-examples/" rel="bookmark">LinkedHashSet class</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-collection-set-5-linkedhash-set/1">Practice</a>)</li>
+<li><a title="Permalink to TreeSet class in Java with Examples" href="http://www.geeksforgeeks.org/treeset-class-java-examples/" rel="bookmark">TreeSet class</a></li>
+<li><a title="Permalink to EnumSet class in Java" href="http://www.geeksforgeeks.org/enumset-class-java/" rel="bookmark">EnumSet class</a></li>
+</ul>
+</li>
+<li><a title="Permalink to Map interface in Java with examples" href="http://www.geeksforgeeks.org/map-interface-java-examples/" rel="bookmark"><strong>Map interface</strong></a>
+<ul>
+      Map implemented classes :</p>
+<li><a title="Permalink to HashMap Class in Java" href="http://www.geeksforgeeks.org/java-util-hashmap-in-java/" rel="bookmark">HashMap Class</a>(<a style="color: #008000;" href="https://practice.geeksforgeeks.org/problems/java-collection-set-3-hashmap/1">Practice</a>)
+<ul>
+<li>HashMap Methods-<a title="Permalink to HashMap Class Methods in Java with Examples | Set 1 (put(), get(), isEmpty() and size())" href="http://www.geeksforgeeks.org/hashmap-class-methods-java-examples-set-1-put-get-isempty-size/" rel="bookmark">Set 1</a> <a title="Permalink to Hashmap methods in Java with Examples | Set 2 (keySet(), values(), containsKey())" href="http://www.geeksforgeeks.org/hashmap-methods-java-examples-set-2-keyset-values-containskey/" rel="bookmark">Set 2</a></li>
+</ul>
+</li>
+<li><a title="Permalink to LinkedHashMap class in Java with Example" href="http://www.geeksforgeeks.org/linkedhashmap-class-java-examples/" rel="bookmark">LinkedHashMap class</a></li>
+<li><a title="Permalink to HashMap and TreeMap in Java" href="http://www.geeksforgeeks.org/hashmap-treemap-java/" rel="bookmark">TreeMap</a></li>
+<li><a href="http://www.geeksforgeeks.org/enummap-class-java-example/">EnumMap class </a></li>
+<li><a href="http://www.geeksforgeeks.org/identityhashmap-class-java/"></a>IdentityHashMap class</li>
+</ul>
+</li>
+<li><a href="http://www.geeksforgeeks.org/sortedset-java-examples/">SortedSet Interface</a></li>
+<li><a href="http://www.geeksforgeeks.org/navigableset-java-examples/">NavigableSet Interface</a></li>
+<li><a href="http://www.geeksforgeeks.org/queue-interface-java/"><strong>Queue Interface</strong></a>
+<ul>
+                Queue implemented classes :</p>
+<li><a title="Permalink to PriorityQueue Class in Java" href="http://geeksquiz.com/priority-queue-class-in-java-2/" rel="bookmark">PriorityQueue</a></li>
+</ul>
+</li>
+<li><a href="http://www.geeksforgeeks.org/deque-interface-java-example/">Deque interface</a></li>
+<li><a href="http://www.geeksforgeeks.org/sortedmap-java-examples/">SortedMap Interface</a></li>
+<li><a href="http://www.geeksforgeeks.org/navigablemap-interface-in-java-with-example/">NavigableMap Interface </a></li>
+<li><a href="http://www.geeksforgeeks.org/java-util-dictionary-class-java/">Dictionary Class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/disjoint-set-data-structures-java-implementation/">Disjoint Set Data Structures (Java Implementation)</a></li>
+<li><a href="http://www.geeksforgeeks.org/output-of-java-programs-set-13-collections/"></a>Output of Java Program | Set 13(Collections)</li>
+</ul></div>
+<p><center><a name="Collection Interview FAQ's"></a><strong>Collection Interview FAQ&#8217;s</strong></center></p>
+<div class = "Collection Interview FAQ's">
+<ul>
+<li><a title="Permalink to Vector vs ArrayList in Java" href="http://www.geeksforgeeks.org/vector-vs-arraylist-java/" rel="bookmark">Vector vs ArrayList</a></li>
+<li><a title="Permalink to ArrayList vs LinkedList in Java" href="http://www.geeksforgeeks.org/arraylist-vs-linkedlist-java/" rel="bookmark">ArrayList vs LinkedList</a></li>
+<li><a href="http://www.geeksforgeeks.org/comparable-vs-comparator-in-java/">Comparable vs Comparator</a></li>
+<li><a href="http://www.geeksforgeeks.org/differences-treemap-hashmap-linkedhashmap-java/">Differences between TreeMap, HashMap and LinkedHashMap</a></li>
+<li><a href="http://geeksquiz.com/differences-between-hashmap-and-hashtable-in-java/">HashMap vs HashTable</a></li>
+<li><a href="http://www.geeksforgeeks.org/hashmap-vs-weakhashmap-java/">Hashmap vs WeakHashMap in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/synchronization-arraylist-java/">How to Synchronize ArrayList in Java</a></li>
+<li><a title="Permalink to ArrayList and LinkedList remove() methods in Java with Examples" href="http://www.geeksforgeeks.org/arraylist-linkedlist-remove-methods-java-examples/" rel="bookmark">ArrayList and LinkedList remove() methods</a></li>
+<li><a href="http://www.geeksforgeeks.org/remove-element-arraylist-java/">How to Remove an element from ArrayList</a></li>
+</ul>
+</div>
+</ul>
+<p><center><a name="Collections Class"></a><strong>Collections Class (Contains utility functions on Collections)</strong></center></p>
+<div class = "Collections Class">
+<ul>
+<li><a title="Permalink to Collections.shuffle() in Java with Examples" href="http://www.geeksforgeeks.org/collections-shuffle-java-examples/" rel="bookmark">Collections.shuffle()</a></li>
+<li><a title="Permalink to Swapping items of a list in Java : Collections.swap() with Example" href="http://www.geeksforgeeks.org/swapping-items-list-java-collections-swap/" rel="bookmark">Collections.swap()</a></li>
+<li><a title="Permalink to Collections.reverse() in Java with Examples" href="http://www.geeksforgeeks.org/collections-reverse-java-examples/" rel="bookmark">Collections.reverse()</a></li>
+<li><a title="Permalink to Collections.binarySearch() in Java with Examples" href="http://www.geeksforgeeks.org/collections-binarysearch-java-examples/" rel="bookmark">Collections.binarySearch()</a></li>
+<li><a title="Permalink to Collections.sort() in Java with Examples" href="http://www.geeksforgeeks.org/collections-sort-java-examples/" rel="bookmark">Collections.sort()</a></li>
+<li><a title="Permalink to Collections.rotate() in Java with Examples" href="http://www.geeksforgeeks.org/java-util-collections-rotate-method-java-examples/" rel="bookmark">Collections.rotate()</a></li>
+<li>Collections.frequency() &#8211; <a title="Permalink to Collections.frequency() in Java with Examples | Set 1" href="http://www.geeksforgeeks.org/java-util-collections-frequency-java/" rel="bookmark"> Set 1</a> <a title="Permalink to Collections.frequency() in Java with Examples |Set 2 (Use with arrays)" href="http://www.geeksforgeeks.org/java-util-collections-frequency-java-examples/" rel="bookmark"> Set 2(Use with arrays) </a></li>
+<li><a title="Permalink to Collections.disjoint() in Java with Examples" href="http://www.geeksforgeeks.org/java-util-collections-disjoint-method-java-examples/" rel="bookmark">Collections.disjoint()</a></li>
+<li><a title="Permalink to Collections.reverseOrder() in Java with Examples" href="http://www.geeksforgeeks.org/collections-reverseorder-java-examples/" rel="bookmark">Collections.reverseOrder()</a></li>
+<li><a href="http://www.geeksforgeeks.org/double-brace-initialization-java/">Double Brace Initialization</a></li>
+</ul>
+</div>
+<p><center><a name="Useful and/or Advanced Features"></a><strong>Useful and/or Advanced Features </strong></center></p>
+<div class = "Useful and/or Advanced Features">
+<ul>
+<li><a title="Permalink to Generics in Java" href="http://www.geeksforgeeks.org/generics-in-java/" rel="bookmark">Generics</a></li>
+<li><a title="Permalink to Wildcards in Java" href="http://www.geeksforgeeks.org/wildcards-in-java/" rel="bookmark">Wildcards in Java</a></li>
+<li><a title="Permalink to Assertions in Java" href="http://www.geeksforgeeks.org/assertions-in-java/" rel="bookmark">Assertions</a></li>
+<li><a title="Permalink to Annotations in Java" href="http://www.geeksforgeeks.org/annotations-in-java/" rel="bookmark">Annotations</a></li>
+<li><a href="http://geeksquiz.com/serialization-in-java/">Serialization and Deserialization</a></li>
+<li><a href="http://www.geeksforgeeks.org/lambda-expressions-java-8/">Lambda Expressions &#8211; Java 8</a></li>
+<li><a href="http://www.geeksforgeeks.org/stream-in-java/">Stream</a></li>
+<li><a href="http://www.geeksforgeeks.org/biginteger-class-in-java/">BigInteger Class</a></li>
+</ul>
+</div>
+<p><center><a name="Image Processing"></a><strong>Image Processing </strong></center></p>
+<div class = "Image Processing">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/image-processing-java-set-1-read-write/">Set 1 (Read and Write)</a></li>
+<li><a title="Permalink to Image Processing In Java | Set 2 (Get and set Pixels)" href="http://www.geeksforgeeks.org/image-processing-java-set-2-get-set-pixels/" rel="bookmark">Set 2 (Get and Set Pixels)</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 3 (Colored image to greyscale image conversion)" href="http://www.geeksforgeeks.org/image-processing-in-java-set-3-colored-image-to-greyscale-image-conversion/" rel="bookmark">Set 3 (Colored image to greyscale image conversion)</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 4 (Colored image to Negative image conversion)" href="http://www.geeksforgeeks.org/image-processing-java-set-4-colored-image-negative-image-conversion/" rel="bookmark">Set 4 (Colored image to Negative image conversion)</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 5 (Colored to Red Green Blue Image Conversion)" href="http://www.geeksforgeeks.org/image-processing-java-set-5-colored-red-green-blue-image-conversion/" rel="bookmark">Set 5 (Colored to Red Green Blue Image Conversion)</a></li>
+<li><a title="Permalink to Image Procesing in Java | Set 6 (Colored image to Sepia image conversion)" href="http://www.geeksforgeeks.org/image-procesing-java-set-6-colored-image-sepia-image-conversion/" rel="bookmark">Set 6 (Colored image to Sepia image conversion)</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 7 (Creating a random pixel image)" href="http://www.geeksforgeeks.org/image-processing-java-set-7-creating-random-pixel-image/" rel="bookmark"> Set 7 (Creating a random pixel image)</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 9 ( Face Detection )" href="http://www.geeksforgeeks.org/image-processing-java-set-9-face-detection/" rel="bookmark">Set 9 ( Face Detection )</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 10 ( Watermarking an image )" href="http://www.geeksforgeeks.org/image-processing-java-set-10-watermarking-image/" rel="bookmark">Set 10 ( Watermarking an image )</a></li>
+<li><a title="Permalink to Image Processing in Java | Set 11 (Changing orientation of image)" href="http://www.geeksforgeeks.org/image-processing-java-set-11-changing-orientation-image/" rel="bookmark">Set 11 (Changing orientation of image)</a></li>
+<li><a href="http://www.geeksforgeeks.org/image-processing-java-set-12-contrast-enhancement/">Set 12 ( Contrast Enhancement )</a></li>
+</ul>
+</div>
+<p><center><strong><a name="Networking in Java"></a>Networking in Java</strong></center></p>
+<div class = "Networking in Java">
+<ul>
+<li><a href="http://quiz.geeksforgeeks.org/socket-programming-in-java/">Socket Programming</a></li>
+<li><a href="http://www.geeksforgeeks.org/introducing-threads-socket-programming-java/">Introducing Threads in Socket Programming in Java</a></li>
+<li><a title="Permalink to URL class in Java with Examples" href="http://www.geeksforgeeks.org/url-class-java-examples/" rel="bookmark">URL class in Java</a></li>
+<li><a title="Permalink to Reading from a URL using URLConnection Class" href="http://www.geeksforgeeks.org/reading-url-using-urlconnection-class/" rel="bookmark">Reading from a URL using URLConnection Class</a></li>
+<li><a href="http://quiz.geeksforgeeks.org/networking-class-in-java/">Inet Address Class</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-datagramsocket-class-java/">Java.net.DatagramSocket class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-inetsocketaddress-class-java/">Java.net.InetSocketAddress class </a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-uri-class-java/">Java.net.URI class </a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-inet4address-class-java/">Java.net.Inet4Address class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-inet6address-class-java/">Java.net.Inet6Address class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-interfaceaddress-class-java/">Java.net.InterfaceAddress class</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-multicastsocket-class-java/">Java.net.MulticastSocket class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-datagrampacket-class-java/">Java.net.DatagramPacket class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-urlencoder-class-java/">Java.net.URLEncoder class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-net-urldecoder-class-java/">Java.net.URLDecoder class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/a-group-chat-application-in-java/">A group chat Application</a></li>
+<li><a href="http://www.geeksforgeeks.org/java-program-find-ip-address-computer/">Java program to find IP address of your computer</a></li>
+<li><a href="http://www.geeksforgeeks.org/multi-threaded-chat-application-set-1/">Multi-threaded chat Application | Set 1 (Server Side Programming)</a></li>
+<li><a href="http://www.geeksforgeeks.org/multi-threaded-chat-application-set-2/">Multi-threaded Chat Application | Set 2 (Client Side Programming)</a></li>
+</ul>
+</div>
+<p><center><a name="Interview Questions"></a><strong>Interview Questions</strong></center></p>
+<div class = "Interview Questions">
+<ul>
+<li>Commonly Asked Programming Interview Questions &#8211; <a title="Permalink to Commonly Asked Java Programming Interview Questions | Set 1" href="http://geeksquiz.com/commonly-asked-java-programming-interview-questions-set-1/" rel="bookmark">Set 1</a> <a href="http://quiz.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-2/"> Set 2</a></li>
+<li><a href="http://www.geeksforgeeks.org/10-important-interview-questions/">10 Most asked Questions from Java Programmers</a></li>
+<li><a href="http://www.geeksforgeeks.org/google-interview-question-for-java-position/">Google Interview Experience | Set 5 (for Java Position)</a></li>
+</ul>
+</div>
+<p><center><a name="Misc"></a><strong>Misc</strong></center></p>
+<div class = "Misc">
+<ul>
+<li><a href="http://www.geeksforgeeks.org/java-tricks-competitive-programming-java-8/">Java tricks for competitive programming (for Java 8)</a></li>
+<li><a href="http://www.geeksforgeeks.org/fast-io-in-java-in-competitive-programming/">Fast I/O in Java in Competitive Programming</a></li>
+<li><a href="http://www.geeksforgeeks.org/performing-database-operations-java-sql-create-insert-update-delete-select/">Performing Database Operations in Java | SQL CREATE, INSERT, UPDATE, DELETE and SELECT</a></li>
+<li><a href="http://www.geeksforgeeks.org/establishing-jdbc-connection-in-java/">Establishing JDBC Connection</a></li>
+<li><a title="Permalink to Few Tricky Programs in Java" href="http://www.geeksforgeeks.org/few-tricky-programs-in-java/" rel="bookmark">Few Tricky Programs</a></li>
+<li><a title="Permalink to How to swap two variables in one line?" href="http://www.geeksforgeeks.org/how-to-swap-two-variables-in-one-line/" rel="bookmark">How to swap two variables in one line?</a></li>
+<li><a title="Permalink to Implementing our Own Hash Table with Separate Chaining in Java" href="http://www.geeksforgeeks.org/implementing-our-own-hash-table-with-separate-chaining-in-java/" rel="bookmark">Implementing our Own Hash Table with Separate Chaining</a></li>
+<li><a title="Permalink to Quick ways to check for Prime and find next Prime in Java" href="http://www.geeksforgeeks.org/quick-ways-to-check-for-prime-and-find-next-prime-in-java/" rel="bookmark">Quick ways to check for Prime and find next Prime in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/create-immutable-class-java/">How to create Immutable class</a></li>
+<li><a title="Permalink to Generics in Java" href="http://www.geeksforgeeks.org/generics-in-java/" rel="bookmark">Pair Class in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/date-class-java-examples/">Date class(With Examples)</a></li>
+<li><a title="Permalink to Generating random numbers in Java" href="http://www.geeksforgeeks.org/generating-random-numbers-in-java/" rel="bookmark">Generating random numbers</a></li>
+<li>BitSet class in Java &#8211; <a title="Permalink to BitSet class in Java | Set 1" href="http://www.geeksforgeeks.org/bitset-class-java-set-1/" rel="bookmark">Set 1</a> <a title="Permalink to BitSet class methods in Java with Examples | Set 2" href="http://www.geeksforgeeks.org/bitset-class-methods-java-examples-set-2/" rel="bookmark">Set 2</a></li>
+<li><a href="http://www.geeksforgeeks.org/jar-files-java/">Jar files in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/working-with-jar-and-manifest-files-in-java/">Working with JAR and Manifest files In Java</a></li>
+<li><a title="Permalink to NaN (Not a Number) in Java" href="http://www.geeksforgeeks.org/nan-not-number-java/" rel="bookmark">NaN (Not a Number) in Java</a></li>
+<li><a title="Permalink to Generating Password and OTP in Java" href="http://www.geeksforgeeks.org/generating-password-otp-java/" rel="bookmark">Generating Password and OTP</a></li>
+<li><a title="Permalink to Why to use char[] array over a string for storing passwords in Java?" href="http://www.geeksforgeeks.org/use-char-array-string-storing-passwords-java/" rel="bookmark">Use char[] array over a string for store passwords</a></li>
+<li><a href="http://www.geeksforgeeks.org/find-free-disk-space-using-java/">Find free disk space using Java</a></li>
+<li><a title="Permalink to Programs for printing pyramid patterns in Java" href="http://www.geeksforgeeks.org/programs-printing-pyramid-patterns-java/" rel="bookmark">Programs for printing pyramid patterns in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/creating-frames-using-swings-java/">Creating Frames using Swings in Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/calling-external-program-java-using-process-runtime/">Calling an External Program in Java using Process and Runtime</a></li>
+<li><a href="http://www.geeksforgeeks.org/multiples-3-5-without-using-operator/">Multiples of 3 and 5 without using % operator</a></li>
+<li><a href="http://www.geeksforgeeks.org/serial-sort-vs-parallel-sort-java/">Serial vs Parallel Sort</a></li>
+<li><a href="http://www.geeksforgeeks.org/play-audio-file-using-java/">How to play an Audio file using Java</a></li>
+<li><a href="http://www.geeksforgeeks.org/send-email-using-java-program/">Send email using Java Program</a></li>
+</ul>
+</div>
+</div>
+<p> <br />
+ <br />
+ </p>
+<p><a href="http://www.geeksforgeeks.org/category/java/">All articles in Java Category</a><br />
+<a href="https://practice.geeksforgeeks.org/">Coding Practice Platform</a></p>
+<p>You can create a new Java topic and discuss it with other geeks using our portal <a href="https://practice.geeksforgeeks.org/ask.php" target="_blank">PRACTICE</a>. See recently added problems on <a href="https://practice.geeksforgeeks.org/topics/Java/" target="_blank">Java on PRACTICE</a>.</p>
+			
+<div class="AdsParent" style="width:100%;margin-top:30px;">
+<span class="rectangleAd">
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ Big Rectangle Blog Bottom 
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="4061219431"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- GfGDownLeftNew -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="5794942435"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</span>
+<span class="responsiveAd">
+<script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- newMobile2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="1950485631"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</span>
+</div>
+
+<h1><strong><a href="https://practice.geeksforgeeks.org/company-tags">Company Wise Coding Practice</a>
+&nbsp;&nbsp;&nbsp;<a href="https://practice.geeksforgeeks.org/topic-tags">Topic Wise Coding Practice</a></strong></h1>
+
+
+
+		</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+	<footer class="entry-meta">
+	
+
+	<div id="share-buttons" style="display:none">
+   
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=http://www.geeksforgeeks.org/java/" target="_blank" title="Share on Facebook">
+        <img src="../wp-content/uploads/facebook.png" alt="Facebook" />
+    </a>
+    
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url=http://www.geeksforgeeks.org/java/" target="_blank" title="Share on Google">
+        <img src="../wp-content/uploads/google.png" alt="Google" />
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.geeksforgeeks.org/java/" target="_blank" title="Share on LinkedIn">
+        <img src="../wp-content/uploads/linkedin.png" alt="LinkedIn" />
+    </a>
+    
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url=http://www.geeksforgeeks.org/java/&amp;text=Java%20Programming%20Language&amp;hashtags=GeeksforGeeks" target="_blank" title="Share on Twitter">
+        <img src="../wp-content/uploads/twitter.png" alt="Twitter" />
+    </a>
+
+    <!-- Pinterest -->
+    <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','../../assets.pinterest.com/js/pinmarklet2a3b.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());" title="Share on Pinterest">
+        <img src="../wp-content/uploads/pinterest.png" alt="Pinterest" />
+    </a>
+    
+    <!-- Reddit -->
+    <a href="http://reddit.com/submit?url=http://www.geeksforgeeks.org/java/&amp;title=Java%20Programming%20Language" target="_blank" title="Share on Reddit">
+        <img src="../wp-content/uploads/reddit.png" alt="Reddit" />
+    </a>
+    
+    <!-- StumbleUpon-->
+    <a href="http://www.stumbleupon.com/submit?url=http://www.geeksforgeeks.org/java/&amp;title=Java%20Programming%20Language" target="_blank" title="Share on StumbleUpon">
+        <img src="../wp-content/uploads/stumbleupon.png" alt="StumbleUpon" />
+    </a>
+    
+    <!-- Tumblr-->
+    <a href="http://www.tumblr.com/share/link?url=http://www.geeksforgeeks.org/java/&amp;title=Java%20Programming%20Language" target="_blank" title="Share on Tumblr">
+        <img src="../wp-content/uploads/tumblr.png" alt="Tumblr" />
+    </a>
+   
+	</div>
+
+	<br></br>
+	<p>Writing code in comment? Please use <a href="https://ide.geeksforgeeks.org/">ide.geeksforgeeks.org</a>, generate link and share the link here.</a></p>
+	<br/>
+	<div style="display:flex">
+		<button id="comment" class="action-button" style="width:45%;cursor: pointer;margin-right:10%;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0);border-color: #4cb96b;border-radius: 4px;">Load Comments</button>
+		<button id="share" class="action-button" onclick="document.getElementById('share-buttons').style.display='block';this.style.display='none';" style="width:45%;cursor: pointer;margin-right:10%;box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0);border-color: #4cb96b;border-radius: 4px;">Share this post !</button>
+
+	</div>
+
+        <div id="disqus_thread"></div>
+
+					</div><!-- #content -->
+	</div><!-- #primary -->
+
+	<script>jQuery(document).ready(function($){$('#comment').on('click',function(){$.ajax({type:"GET",url:"http://geeksforgeeks.disqus.com/embed.js",dataType:"script",cache:!0});$(this).fadeOut()});if(window.location.href.indexOf('#comment') > -1){jQuery('#comment').click();}});</script>
+
+<style type="text/css">
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+#share-buttons a:hover {
+	text-decoration: none;
+}
+</style>
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-2" class="widget widget_text">			<div class="textwidget"><script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- Big 300x600 Sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="4402736037"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><div class="trendings_gfg">
+					<table width="100%" align="center">
+						<thead>
+							<tr>
+								<th style="border:1px solid #6AA84F;background-color:#4CB96B;color:#fff;text-align: center;font-size: 16px;">Trending Content</th>
+							</tr>
+						</thead>
+						<tbody>
+
+<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+
+
+							<a href="../longest-common-subsequence/index.html">Longest Common Subsequence</a>
+
+						</td>
+					</tr>			
+												<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+
+
+							<a href="../breadth-first-traversal-for-a-graph/index.html">Breadth First Traversal or BFS</a>
+
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+
+							<a href="../school-programming/index.html">School Programming</a>
+
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../longest-repeated-subsequence/index.html">Longest Repeated Subsequence</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../dynamic-programming-set-12-longest-palindromic-subsequence/index.html">Longest Palindromic Subsequence</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../detect-negative-cycle-graph-bellman-ford/index.html">Detect a negative cycle in a Graph | (Bellman Ford)</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../knapsack-problem/index.html">0-1 Knapsack Problem</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../gate-cs-notes-gq/index.html">GATE CS Notes</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../depth-first-traversal-for-a-graph/index.html">Depth First Traversal or DFS for a Graph</a>
+						</td>
+					</tr>					<tr>
+						<td style="border:1px solid #6AA84F;padding:2px;">
+							<a href="../reverse-a-linked-list/index.html">Reverse a linked list</a>
+
+						</td>
+					</tr>
+						</tbody>
+					</table>
+				</div></div>
+		</aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"><script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- ResponsiveRightBarMay16 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="7089558833"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-5" class="widget widget_text">			<div class="textwidget"><table align="center" width="100%">
+    <thead>
+        <tr>
+            <th style="border:1px solid #6AA84F;background-color:#4CB96B;color:#fff;text-align: center;font-size: 16px;line-height:1.7;">
+                Most Visited Posts
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../top-algorithms-and-data-structures-for-competitive-programming/index.html">Top 10 Algorithms and Data Structures for Competitive Programming</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../top-10-algorithms-in-interview-questions/index.html">Top 10 algorithms in Interview Questions</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../how-to-begin-with-competitive-programming/index.html">How to begin with Competitive Programming?</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/index.html">Step by Step Guide for Placement Preparation</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../how-to-prepare-for-acm-icpc/index.html">How to prepare for ACM-ICPC?</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://quiz.geeksforgeeks.org/insertion-sort/">Insertion Sort</a>,
+                <a href="http://geeksquiz.com/binary-search/">Binary Search</a>,
+                <a href="http://geeksquiz.com/quick-sort/">QuickSort</a>,
+                <a href="http://geeksquiz.com/merge-sort/">MergeSort</a>,
+                <a href="http://geeksquiz.com/heap-sort/">HeapSort</a>
+            </td>
+        </tr>
+    </tbody>
+</table></div>
+		</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- GfGSideBottomResponsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9465609616171866"
+     data-ad-slot="5749413230"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><table align="center" width="100%">
+    <thead>
+        <tr>
+            <th style="border:1px solid #6AA84F;background-color:#4CB96B;color:#fff;text-align: center;font-size: 16px;line-height:1.7;">
+                Popular Categories
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/interview-experiences/index.html">Interview Experiences</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../advanced-data-structures/index.html">Advanced Data Structures</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../dynamic-programming/index.html">Dynamic Programming</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/greedy/index.html">Greedy Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/backtracking/index.html">Backtracking</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/pattern-searching/index.html">Pattern Searching</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/divide-and-conquer/index.html">Divide &amp; Conquer</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/algorithm/geometric/index.html">Geometric Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/searching/index.html">Searching</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/sorting/index.html">Sorting</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/algorithm/analysis/index.html">Analysis of Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/algorithm/mathematical/index.html">Mathematical Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/algorithm/randomized/index.html">Randomized Algorithms</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="http://www.geeksforgeeks.org/tag/recursion">Recursion</a>
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">
+                <a href="../category/algorithm/game-theory/index.html">Game Theory</a>
+            </td>
+<tr>
+            <td style="border:1px solid #6AA84F;padding:2px;line-height:1.7;font-size:13px;">							<a href="../tag/statistical-algorithms/index.html">Statistical Algorithms</a>            </td>
+
+        </tr>
+
+    </tbody>
+</table></div>
+		</aside><aside id="text-8" class="widget widget_text">			<div class="textwidget"><!-- BuySellAds Zone Code -->
+<div id="bsap_1306934" class="bsarocks bsap_785bf45b162de1c5511e8baa02854e5c"></div>
+<!-- End BuySellAds Zone Code --></div>
+		</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><p class="widget-title">Tags</p><div class="tagcloud"><a href='../category/advanced-data-structure/index.html' class='tag-link-1762 tag-link-position-1' title='152 topics' style='font-size: 9.9384615384615pt;'>Advanced Data Structure</a>
+<a href='../tag/amazon/index.html' class='tag-link-1942 tag-link-position-2' title='469 topics' style='font-size: 15.215384615385pt;'>Amazon</a>
+<a href='../tag/aptitude/index.html' class='tag-link-2159 tag-link-position-3' title='287 topics' style='font-size: 12.953846153846pt;'>Aptitude</a>
+<a href='../category/quizzes-gq/aptitude-gq/index.html' class='tag-link-2200 tag-link-position-4' title='284 topics' style='font-size: 12.846153846154pt;'>Aptitude</a>
+<a href='../category/data-structures/c-arrays/index.html' class='tag-link-3 tag-link-position-5' title='584 topics' style='font-size: 16.292307692308pt;'>Arrays</a>
+<a href='../category/articles/index.html' class='tag-link-18 tag-link-position-6' title='99 topics' style='font-size: 8pt;'>Articles</a>
+<a href='../category/algorithm/bit-magic/index.html' class='tag-link-17 tag-link-position-7' title='190 topics' style='font-size: 11.015384615385pt;'>Bit Magic</a>
+<a href='../category/programming-language/c/index.html' class='tag-link-2064 tag-link-position-8' title='550 topics' style='font-size: 15.969230769231pt;'>C</a>
+<a href='../tag/c/index.html' class='tag-link-2138 tag-link-position-9' title='397 topics' style='font-size: 14.461538461538pt;'>C</a>
+<a href='../category/programming-language/cpp/index.html' class='tag-link-2065 tag-link-position-10' title='663 topics' style='font-size: 16.830769230769pt;'>C++</a>
+<a href='../category/quizzes-gq/computer-science-quizzes-gq/cpp-gq/index.html' class='tag-link-2207 tag-link-position-11' title='130 topics' style='font-size: 9.2923076923077pt;'>C++ Quiz</a>
+<a href='../category/computer-subject/computer-networks/index.html' class='tag-link-2051 tag-link-position-12' title='103 topics' style='font-size: 8.2153846153846pt;'>Computer Networks</a>
+<a href='../tag/cpp-library/index.html' class='tag-link-1964 tag-link-position-13' title='113 topics' style='font-size: 8.6461538461538pt;'>CPP-Library</a>
+<a href='../category/quizzes-gq/computer-science-quizzes-gq/c-gq/index.html' class='tag-link-2206 tag-link-position-14' title='274 topics' style='font-size: 12.738461538462pt;'>C Quiz</a>
+<a href='../category/quizzes-gq/computer-science-quizzes-gq/data-structures-gate-gq/index.html' class='tag-link-2213 tag-link-position-15' title='129 topics' style='font-size: 9.1846153846154pt;'>Data Structures</a>
+<a href='../tag/data-structures/index.html' class='tag-link-2142 tag-link-position-16' title='129 topics' style='font-size: 9.1846153846154pt;'>Data Structures</a>
+<a href='../category/computer-subject/dbms/index.html' class='tag-link-2053 tag-link-position-17' title='101 topics' style='font-size: 8.1076923076923pt;'>DBMS</a>
+<a href='../category/algorithm/dynamic-programming/index.html' class='tag-link-1746 tag-link-position-18' title='265 topics' style='font-size: 12.523076923077pt;'>Dynamic Programming</a>
+<a href='../category/interview-experiences/experienced-interview-experiences/index.html' class='tag-link-1795 tag-link-position-19' title='130 topics' style='font-size: 9.2923076923077pt;'>Experienced</a>
+<a href='../category/guestblogs/index.html' class='tag-link-1710 tag-link-position-20' title='259 topics' style='font-size: 12.415384615385pt;'>GBlog</a>
+<a href='../category/algorithm/geometric/index.html' class='tag-link-1754 tag-link-position-21' title='99 topics' style='font-size: 8pt;'>Geometric</a>
+<a href='../category/data-structures/graph/index.html' class='tag-link-2068 tag-link-position-22' title='184 topics' style='font-size: 10.907692307692pt;'>Graph</a>
+<a href='../category/data-structures/hash/index.html' class='tag-link-1756 tag-link-position-23' title='148 topics' style='font-size: 9.8307692307692pt;'>Hash</a>
+<a href='../category/interview-experiences/internship-interview-experiences/index.html' class='tag-link-1794 tag-link-position-24' title='173 topics' style='font-size: 10.584615384615pt;'>Internship</a>
+<a href='../category/interview-experiences/index.html' class='tag-link-1140 tag-link-position-25' title='2,016 topics' style='font-size: 22pt;'>Interview Experiences</a>
+<a href='../category/programming-language/java/index.html' class='tag-link-2058 tag-link-position-26' title='698 topics' style='font-size: 17.046153846154pt;'>Java</a>
+<a href='../category/data-structures/linked-list/index.html' class='tag-link-8 tag-link-position-27' title='177 topics' style='font-size: 10.692307692308pt;'>Linked Lists</a>
+<a href='../category/algorithm/mathematical/index.html' class='tag-link-1753 tag-link-position-28' title='712 topics' style='font-size: 17.153846153846pt;'>Mathematical</a>
+<a href='../category/data-structures/matrix/index.html' class='tag-link-1760 tag-link-position-29' title='205 topics' style='font-size: 11.338461538462pt;'>Matrix</a>
+<a href='../tag/microsoft/index.html' class='tag-link-104 tag-link-position-30' title='182 topics' style='font-size: 10.8pt;'>Microsoft</a>
+<a href='../tag/number-digits/index.html' class='tag-link-1911 tag-link-position-31' title='124 topics' style='font-size: 9.0769230769231pt;'>number-digits</a>
+<a href='../category/program-output/index.html' class='tag-link-5 tag-link-position-32' title='184 topics' style='font-size: 10.907692307692pt;'>Program Output</a>
+<a href='../category/project/index.html' class='tag-link-1767 tag-link-position-33' title='124 topics' style='font-size: 9.0769230769231pt;'>Project</a>
+<a href='../category/puzzles/index.html' class='tag-link-2063 tag-link-position-34' title='162 topics' style='font-size: 10.261538461538pt;'>Puzzles</a>
+<a href='../category/programming-language/python/index.html' class='tag-link-1789 tag-link-position-35' title='498 topics' style='font-size: 15.538461538462pt;'>Python</a>
+<a href='../tag/qa-placement-quizzes/index.html' class='tag-link-2187 tag-link-position-36' title='274 topics' style='font-size: 12.738461538462pt;'>QA - Placement Quizzes</a>
+<a href='../category/quizzes-gq/qa-placement-quizzes-gq/index.html' class='tag-link-2204 tag-link-position-37' title='274 topics' style='font-size: 12.738461538462pt;'>QA - Placement Quizzes</a>
+<a href='../category/school-programming/index.html' class='tag-link-2078 tag-link-position-38' title='329 topics' style='font-size: 13.6pt;'>School Programming</a>
+<a href='../category/algorithm/searching/index.html' class='tag-link-1751 tag-link-position-39' title='116 topics' style='font-size: 8.7538461538462pt;'>Searching</a>
+<a href='../tag/series/index.html' class='tag-link-1919 tag-link-position-40' title='106 topics' style='font-size: 8.3230769230769pt;'>series</a>
+<a href='../category/algorithm/sorting/index.html' class='tag-link-1752 tag-link-position-41' title='220 topics' style='font-size: 11.661538461538pt;'>Sorting</a>
+<a href='../tag/stl/index.html' class='tag-link-1797 tag-link-position-42' title='239 topics' style='font-size: 12.092307692308pt;'>STL</a>
+<a href='../category/data-structures/c-strings/index.html' class='tag-link-7 tag-link-position-43' title='455 topics' style='font-size: 15.107692307692pt;'>Strings</a>
+<a href='../category/technical-scripter/index.html' class='tag-link-1788 tag-link-position-44' title='157 topics' style='font-size: 10.153846153846pt;'>Technical Scripter</a>
+<a href='../category/data-structures/tree/index.html' class='tag-link-19 tag-link-position-45' title='289 topics' style='font-size: 12.953846153846pt;'>Trees</a></div>
+</aside><aside id="text-9" class="widget widget_text">			<div class="textwidget"><!-- BuySellAds Zone Code -->
+<div id="bsap_1304848" class="bsarocks bsap_785bf45b162de1c5511e8baa02854e5c"></div>
+<!-- End BuySellAds Zone Code --></div>
+		</aside><aside id="text-10" class="widget widget_text">			<div class="textwidget"><a href="../recent-comments/index.html" style="margin-right: 0px !important;">
+  <center>
+    <input type="button" value="Recent Comments" style="background-color: #4cb96b; color:white; width:100%; font-size:large; cursor:pointer;font-weight:bold;">
+  </center>
+</a></div>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo" style="padding:0; ">
+		<div class="site-info">
+		<div class="clear"></div>
+		</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+<center>
+  <div class="iconic-footer" style="min-height:40px;font-size:14px;padding-bottom: 0px;line-height: 1.5;">
+    @geeksforgeeks, 
+    <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/in/deed.en_US" title="Valid XHTML Strict 1.0">Some rights reserved</a><a href="../about/contact-us/index.html"> &nbsp; &nbsp; &nbsp; &nbsp;Contact Us!</a>
+    <a href="../about/index.html"> &nbsp; &nbsp; &nbsp; &nbsp;About Us!&nbsp; &nbsp; &nbsp;</a>
+    <a href="../careers/index.html"> &nbsp; &nbsp; &nbsp;Careers!&nbsp; &nbsp; </a>
+    <a href="../privacy-policy/index.html">&nbsp; &nbsp; &nbsp; Privacy Policy&nbsp; &nbsp;&nbsp; </a>
+    <!-- adding social buttons on 07 April, 2017 -->
+    <a href="https://www.facebook.com/GeeksforGeeks-316764689022/timeline/" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="facebook">
+      <img src="../wp-content/uploads/square_facebook_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://twitter.com/geeksforgeeks" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="twitter">
+      <img src="../wp-content/uploads/square_twitter_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://www.linkedin.com/company-beta/1299009" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="linkedin">
+      <img src="../wp-content/uploads/square_linkedin_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=free.programming.programming" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="play store">
+      <img src="../wp-content/uploads/square_play_store_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+    <a href="https://www.microsoft.com/en-us/store/apps/geeksforgeeks-official/9nblggh4rh30" style="display: inline-block;margin-left: 10px;border:1px solid #fff;border-radius: 2px;" title="windows store">
+      <img src="../wp-content/uploads/square_windows_store_green.png" style="width:30px;vertical-align: middle;" />
+    </a>
+  </div>
+</center><!-- .site-info -->
+
+				<div class="clear"></div>
+</div><!-- #page -->
+
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js'></script>
+
+<script type="text/javascript">
+// below changes to be added in gfg.js in future.
+// load comment button click when page scroll to it and positioned ad in mobile view.
+flag=0;jQuery(window).scroll(function(){if(jQuery('#comment').length !=0 ){var hT=jQuery('#comment').offset().top,hH=jQuery('#comment').outerHeight(),wH=jQuery(window).height(),wS=jQuery(this).scrollTop();if(wS>(hT+hH-wH-70)&&!flag){jQuery('#comment').click();flag=1}}});var temp_width=jQuery(window).width();if(temp_width<468){if(jQuery('article').length>1){jQuery(jQuery('.responsiveAd')).insertAfter('article:eq(2)');jQuery('.rectangleAd').hide()}
+else if(jQuery('#practiceLinkDiv').length>0){jQuery(jQuery('.responsiveAd')).insertAfter('#practiceLinkDiv');jQuery('.rectangleAd').css('width','')}else{jQuery('.responsiveAd').hide();jQuery('.rectangleAd').css('width','')}}
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12148232-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  
+<script async type="text/javascript" src="../../cdn.fancybar.net/ac/fancybare1b0.js?zoneid=1502&amp;serve=C6ADVKE&amp;placement=geeksforgeeks" id="_fancybar_js"></script>
+</body>
+
+<!-- Mirrored from www.geeksforgeeks.org/java/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Dec 2017 06:35:16 GMT -->
+</html>
+
+<!-- Dynamic page generated in 0.091 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-12-05 08:53:57 -->
+
+<!-- Compression = gzip -->

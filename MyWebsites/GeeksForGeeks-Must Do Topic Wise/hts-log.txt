@@ -1,0 +1,589 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 05 Dec 2017 12:02:29 at http://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
+(winhttrack -qwC2%Pns2u1%s%uN0%I0p7DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/ -O1 "D:\MyWebsites\GeeksForGeeks-Must Do Topic Wise" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:02:52	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
+12:02:54	Warning: 	Note: due to s.w.org remote robots.txt rules, links beginning with these path will be forbidden: /search, /support/search.php, /extend/plugins/search.php, /plugins/search.php, /extend/themes/search.php, /themes/search.php, /support/rss, /archive/ (see in the options to disable this)
+12:02:54	Warning: 	Found for s.w.org/
+12:02:54	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+12:03:00	Error: 	"Forbidden" (403) at link www.cdn.geeksforgeeks.org/xmlrpc.php?rsd (from www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/)
+12:03:05	Warning: 	Warning: store text/html without scan: D:/MyWebsites/GeeksForGeeks-Must Do Topic Wise/gmpg.org/xfn/.html
+12:03:06	Warning: 	Warning: store text/html without scan: D:/MyWebsites/GeeksForGeeks-Must Do Topic Wise/gmpg.org/xfn/intro.html
+12:03:07	Warning: 	Warning: store text/html without scan: D:/MyWebsites/GeeksForGeeks-Must Do Topic Wise/gmpg.org/xfn/faq.html
+12:05:19	Warning: 	Moved Permanently for www.geeksforgeeks.org/about/interview-corner/
+12:05:19	Warning: 	File has moved from www.geeksforgeeks.org/about/interview-corner/ to http://www.geeksforgeeks.org/company-interview-corner/
+12:38:41	Warning: 	Moved Permanently for www.geeksforgeeks.org/category/geeksquiz/articles-gq/difference-gq/
+12:38:41	Warning: 	File has moved from www.geeksforgeeks.org/category/geeksquiz/articles-gq/difference-gq/ to http://www.geeksforgeeks.org/category/difference-between/
+12:40:15	Warning: 	Moved Permanently for www.geeksforgeeks.org/tag/dynamic-programming/
+12:40:15	Warning: 	File has moved from www.geeksforgeeks.org/tag/dynamic-programming/ to http://www.geeksforgeeks.org/category/dynamic-programming/
+13:01:07	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=9830 (from www.geeksforgeeks.org/contribute/)
+13:01:15	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=24811 (from www.geeksforgeeks.org/fundamentals-of-algorithms/)
+13:01:16	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147715 (from www.geeksforgeeks.org/searching-algorithms/)
+13:01:17	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147671 (from www.geeksforgeeks.org/sorting-algorithms/)
+13:01:18	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137880 (from www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+13:01:20	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=141967 (from www.geeksforgeeks.org/bitwise-algorithms/)
+13:01:20	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=153107 (from www.geeksforgeeks.org/geometric-algorithms/)
+13:01:22	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139578 (from www.geeksforgeeks.org/mathematical-algorithms/)
+13:01:22	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/mathematical-algorithms/www.geeksforgeeks.org/difference-of-two-large-numbers/ (from www.geeksforgeeks.org/mathematical-algorithms/)
+13:01:23	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=141944 (from www.geeksforgeeks.org/randomized-algorithms/)
+13:01:25	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147328 (from www.geeksforgeeks.org/greedy-algorithms/)
+13:01:26	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147485 (from www.geeksforgeeks.org/dynamic-programming/)
+13:01:27	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=153342 (from www.geeksforgeeks.org/divide-and-conquer/)
+13:01:27	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139493 (from www.geeksforgeeks.org/backtracking-algorithms/)
+13:01:28	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=125686 (from www.geeksforgeeks.org/data-structures/)
+13:01:30	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137920 (from www.geeksforgeeks.org/array-data-structure/)
+13:01:31	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136271 (from www.geeksforgeeks.org/data-structures/linked-list/)
+13:01:32	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136272 (from www.geeksforgeeks.org/stack-data-structure/)
+13:01:32	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136273 (from www.geeksforgeeks.org/queue-data-structure/)
+13:01:33	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136287 (from www.geeksforgeeks.org/binary-tree-data-structure/)
+13:01:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136288 (from www.geeksforgeeks.org/binary-search-tree-data-structure/)
+13:01:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136298 (from www.geeksforgeeks.org/heap-data-structure/)
+13:01:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136300 (from www.geeksforgeeks.org/hashing-data-structure/)
+13:01:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147527 (from www.geeksforgeeks.org/advanced-data-structures/)
+13:01:37	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137921 (from www.geeksforgeeks.org/matrix/)
+13:01:39	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=152865 (from www.geeksforgeeks.org/string-data-structure/)
+13:01:50	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=24966 (from www.geeksforgeeks.org/c/)
+13:01:52	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=25749 (from www.geeksforgeeks.org/c-plus-plus/)
+13:01:53	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=126247 (from www.geeksforgeeks.org/java/)
+13:01:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136942 (from www.geeksforgeeks.org/python/)
+13:01:56	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=140497 (from www.geeksforgeeks.org/sql-tutorial/)
+13:01:58	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=141324 (from www.geeksforgeeks.org/company-preparation/)
+13:01:59	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137149 (from www.geeksforgeeks.org/interview-preparation-for-software-developer/)
+13:02:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139564 (from www.geeksforgeeks.org/software-design-patterns/)
+13:02:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137177 (from www.geeksforgeeks.org/student-corner/)
+13:02:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136061 (from www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/)
+13:02:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136142 (from www.geeksforgeeks.org/geek-of-the-month/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=151951 (from www.geeksforgeeks.org/careers/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137365 (from www.geeksforgeeks.org/internship/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147324 (from www.geeksforgeeks.org/school-programming/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146431 (from www.geeksforgeeks.org/gate-corner-2-gq/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146435 (from www.geeksforgeeks.org/gate-cs-notes-gq/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146442 (from www.geeksforgeeks.org/lmns-gq/)
+13:02:35	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146449 (from www.geeksforgeeks.org/original-gate-previous-year-question-papers-cse-and-it-gq/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=155946 (from www.geeksforgeeks.org/gate-cs-2018-important-dates/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146462 (from www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146797 (from www.geeksforgeeks.org/operating-systems/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146830 (from www.geeksforgeeks.org/dbms/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147144 (from www.geeksforgeeks.org/computer-network-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147180 (from www.geeksforgeeks.org/compiler-design-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147766 (from www.geeksforgeeks.org/web-technology/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147200 (from www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147247 (from www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147268 (from www.geeksforgeeks.org/engineering-mathematics-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147193 (from www.geeksforgeeks.org/theory-of-computation-automata-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147217 (from www.geeksforgeeks.org/advanced-computer-subjects-tutorials/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146459 (from www.geeksforgeeks.org/quizzes-on-programming-languages-gq/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146443 (from www.geeksforgeeks.org/quiz-corner-gq/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146592 (from www.geeksforgeeks.org/software-engineering-gq/)
+13:02:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146594 (from www.geeksforgeeks.org/html-and-xml-gq/)
+13:02:38	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147496 (from www.geeksforgeeks.org/puzzles/)
+13:02:39	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139191 (from www.geeksforgeeks.org/the-technical-scripter-event-by-geeksforgeeks-2/)
+13:02:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139511 (from www.geeksforgeeks.org/tags/)
+13:02:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146456 (from www.geeksforgeeks.org/placements-gq/)
+13:02:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=142128 (from www.geeksforgeeks.org/company-interview-corner/)
+13:03:00	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=142246 (from www.geeksforgeeks.org/geeksquiz-home/)
+13:03:01	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147570 (from www.geeksforgeeks.org/image-processing/)
+13:04:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139359 (from www.geeksforgeeks.org/recent-comments/)
+13:04:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=29076 (from www.geeksforgeeks.org/about/contact-us/)
+13:04:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=2 (from www.geeksforgeeks.org/about/)
+13:04:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139933 (from www.geeksforgeeks.org/privacy-policy/)
+13:04:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=25675 (from www.geeksforgeeks.org/contribute/article-writing-style/)
+13:06:49	Warning: 	Warning: store text/html without scan: D:/MyWebsites/GeeksForGeeks-Must Do Topic Wise/www.geeksforgeeks.org/tag/amazon/page/12/index.html
+13:08:20	Warning: 	Warning: store text/html without scan: D:/MyWebsites/GeeksForGeeks-Must Do Topic Wise/www.geeksforgeeks.org/tag/amazon/page/16/index.html
+13:10:22	Warning: 	HTML file (14761 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/feed/
+13:10:22	Warning: 	HTML file (16819 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/comments/feed/
+13:10:26	Warning: 	HTML file (1572 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/wp-json/
+13:10:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fmust-do-coding-questions-for-companies-like-amazon-microsoft-adobe%2F
+13:10:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): s3.buysellads.com/ac/bsa.js
+13:10:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+13:10:32	Warning: 	HTML file (95007 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=152831
+13:10:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): assets.pinterest.com/js/pinmarklet.js?r=
+13:10:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.fancybar.net/ac/fancybar.js?zoneid=1502&serve=C6ADVKE&placement=geeksforgeeks
+13:10:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcontribute%2F
+13:10:37	Warning: 	HTML file (10426 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/fundamentals-of-algorithms/feed/
+13:10:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ffundamentals-of-algorithms%2F
+13:10:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsearching-algorithms%2F
+13:10:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsorting-algorithms%2F
+13:10:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgraph-data-structure-and-algorithms%2F
+13:10:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fbitwise-algorithms%2F
+13:10:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgeometric-algorithms%2F
+13:10:43	Warning: 	Warning: store text/css without scan: D:/MyWebsites/GeeksForGeeks-Must Do Topic Wise/gmpg.org/xfn/default.css
+13:10:43	Warning: 	HTML file (77360 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/contribute/article-writing-style/
+13:10:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fmathematical-algorithms%2F
+13:10:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Frandomized-algorithms%2F
+13:10:45	Warning: 	HTML file (13370 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/game-theory/feed/
+13:10:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgreedy-algorithms%2F
+13:10:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdynamic-programming%2F
+13:10:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdivide-and-conquer%2F
+13:10:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fbacktracking-algorithms%2F
+13:10:50	Warning: 	HTML file (6257 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/data-structures/feed/
+13:10:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdata-structures%2F
+13:10:53	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=24811
+13:10:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdata-structures%2Flinked-list%2F
+13:10:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fstack-data-structure%2F
+13:10:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fqueue-data-structure%2F
+13:10:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fbinary-tree-data-structure%2F
+13:10:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fbinary-search-tree-data-structure%2F
+13:10:57	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=24811 (from www.geeksforgeeks.org/fundamentals-of-algorithms/)
+13:10:57	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147715
+13:10:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fheap-data-structure%2F
+13:10:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fhashing-data-structure%2F
+13:11:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fadvanced-data-structures%2F
+13:11:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fmatrix%2F
+13:11:02	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147715 (from www.geeksforgeeks.org/searching-algorithms/)
+13:11:02	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147671
+13:11:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fstring-data-structure%2F
+13:11:03	Warning: 	HTML file (13638 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/program-output/feed/
+13:11:03	Warning: 	HTML file (9517 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/c/feed/
+13:11:06	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fc%2F
+13:11:06	Warning: 	HTML file (16548 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/c-plus-plus/feed/
+13:11:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fc-plus-plus%2F
+13:11:07	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147671 (from www.geeksforgeeks.org/sorting-algorithms/)
+13:11:07	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=137880
+13:11:08	Warning: 	HTML file (6224 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/java/feed/
+13:11:09	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fjava%2F
+13:11:11	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fpython%2F
+13:11:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsql-tutorial%2F
+13:11:12	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137880 (from www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+13:11:12	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=141967
+13:11:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcompany-preparation%2F
+13:11:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Finterview-preparation-for-software-developer%2F
+13:11:14	Warning: 	HTML file (16851 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/experienced-interview-experiences/feed/
+13:11:15	Warning: 	HTML file (17543 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/internship-interview-experiences/feed/
+13:11:17	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=141967 (from www.geeksforgeeks.org/bitwise-algorithms/)
+13:11:17	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=153107
+13:11:18	Warning: 	HTML file (14579 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/competitive-programming/feed/
+13:11:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsoftware-design-patterns%2F
+13:11:21	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fstudent-corner%2F
+13:11:22	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=153107 (from www.geeksforgeeks.org/geometric-algorithms/)
+13:11:22	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=139578
+13:11:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcampus-ambassador-program-by-geeksforgeeks%2F
+13:11:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgeek-of-the-month%2F
+13:11:25	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139578 (from www.geeksforgeeks.org/mathematical-algorithms/)
+13:11:25	Warning: 	HTML file (38453 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/mathematical-algorithms/www.geeksforgeeks.org/difference-of-two-large-numbers/
+13:11:27	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/mathematical-algorithms/www.geeksforgeeks.org/difference-of-two-large-numbers/ (from www.geeksforgeeks.org/mathematical-algorithms/)
+13:11:27	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147328
+13:11:29	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147328 (from www.geeksforgeeks.org/greedy-algorithms/)
+13:11:29	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147485
+13:11:31	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147485 (from www.geeksforgeeks.org/dynamic-programming/)
+13:11:31	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=153342
+13:11:33	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=153342 (from www.geeksforgeeks.org/divide-and-conquer/)
+13:11:33	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=139493
+13:11:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139493 (from www.geeksforgeeks.org/backtracking-algorithms/)
+13:11:35	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=125686
+13:11:37	Warning: 	HTML file (13273 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/project/feed/
+13:11:37	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=125686 (from www.geeksforgeeks.org/data-structures/)
+13:11:37	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=137920
+13:11:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ftestimonials%2F
+13:11:38	Warning: 	HTML file (13970 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/geek-on-the-top/feed/
+13:11:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcareers%2F
+13:11:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Finternship%2F
+13:11:41	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137920 (from www.geeksforgeeks.org/array-data-structure/)
+13:11:41	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136271
+13:11:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fschool-programming%2F
+13:11:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgate-corner-2-gq%2F
+13:11:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgate-cs-notes-gq%2F
+13:11:44	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136271 (from www.geeksforgeeks.org/data-structures/linked-list/)
+13:11:45	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136272
+13:11:47	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136272 (from www.geeksforgeeks.org/stack-data-structure/)
+13:11:47	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136273
+13:11:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): web.mit.edu/16.070/www/lecture/big_o.pdf
+13:11:49	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136273 (from www.geeksforgeeks.org/queue-data-structure/)
+13:11:49	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136287
+13:11:51	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136287 (from www.geeksforgeeks.org/binary-tree-data-structure/)
+13:11:51	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136288
+13:11:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136288 (from www.geeksforgeeks.org/binary-search-tree-data-structure/)
+13:11:54	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136298
+13:11:55	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136298 (from www.geeksforgeeks.org/heap-data-structure/)
+13:11:56	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136300
+13:11:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): web.mit.edu/modiano/www/6.263/lec3-4.pdf
+13:11:57	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136300 (from www.geeksforgeeks.org/hashing-data-structure/)
+13:11:57	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147527
+13:11:59	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147527 (from www.geeksforgeeks.org/advanced-data-structures/)
+13:11:59	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=137921
+13:12:01	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137921 (from www.geeksforgeeks.org/matrix/)
+13:12:01	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=152865
+13:12:03	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=152865 (from www.geeksforgeeks.org/string-data-structure/)
+13:12:03	Warning: 	HTML file (85155 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/program-output/page/2/
+13:12:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/lecture-notes/MIT6_045JS11_lec05.pdf
+13:12:08	Warning: 	HTML file (84765 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/program-output/page/3/
+13:12:12	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=24966
+13:12:13	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=24966 (from www.geeksforgeeks.org/c/)
+13:12:13	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=25749
+13:12:16	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=25749 (from www.geeksforgeeks.org/c-plus-plus/)
+13:12:16	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=126247
+13:12:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Flmns-gq%2F
+13:12:17	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=126247 (from www.geeksforgeeks.org/java/)
+13:12:17	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136942
+13:12:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Foriginal-gate-previous-year-question-papers-cse-and-it-gq%2F
+13:12:19	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136942 (from www.geeksforgeeks.org/python/)
+13:12:20	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=140497
+13:12:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgate-cs-2018-important-dates%2F
+13:12:21	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=140497 (from www.geeksforgeeks.org/sql-tutorial/)
+13:12:21	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=141324
+13:12:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Farticles-on-computer-science-subjects-gq%2F
+13:12:24	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=141324 (from www.geeksforgeeks.org/company-preparation/)
+13:12:24	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=137149
+13:12:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Foperating-systems%2F
+13:12:26	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137149 (from www.geeksforgeeks.org/interview-preparation-for-software-developer/)
+13:12:26	Warning: 	HTML file (89392 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/experienced-interview-experiences/page/2/
+13:12:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdbms%2F
+13:12:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-network-tutorials%2F
+13:12:29	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcompiler-design-tutorials%2F
+13:12:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fweb-technology%2F
+13:12:31	Warning: 	HTML file (89090 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/experienced-interview-experiences/page/3/
+13:12:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcomputer-organization-and-architecture-tutorials%2F
+13:12:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdigital-electronics-logic-design-tutorials%2F
+13:12:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fengineering-mathematics-tutorials%2F
+13:12:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ftheory-of-computation-automata-tutorials%2F
+13:12:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fadvanced-computer-subjects-tutorials%2F
+13:12:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fquizzes-on-programming-languages-gq%2F
+13:12:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fquiz-corner-gq%2F
+13:12:36	Warning: 	HTML file (89610 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/internship-interview-experiences/page/3/
+13:12:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsoftware-engineering-gq%2F
+13:12:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fhtml-and-xml-gq%2F
+13:12:39	Warning: 	HTML file (15756 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/guestblogs/feed/
+13:12:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fpuzzles%2F
+13:12:41	Warning: 	HTML file (88834 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/competitive-programming/page/3/
+13:12:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fthe-technical-scripter-event-by-geeksforgeeks-2%2F
+13:12:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fwrite-interview-experience%2F
+13:12:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fmust-coding-questions-company-wise%2F
+13:12:44	Warning: 	HTML file (15808 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/amazon/feed/
+13:12:44	Warning: 	HTML file (16788 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/microsoft/feed/
+13:12:47	Warning: 	HTML file (14430 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/samsung/feed/
+13:12:47	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=137177
+13:12:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ftags%2F
+13:12:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fa-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks%2F
+13:12:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fplacements-gq%2F
+13:12:50	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137177 (from www.geeksforgeeks.org/student-corner/)
+13:12:50	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136061
+13:12:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcompany-interview-corner%2F
+13:12:51	Warning: 	HTML file (16375 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/feed/
+13:12:52	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136061 (from www.geeksforgeeks.org/campus-ambassador-program-by-geeksforgeeks/)
+13:12:52	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136142
+13:12:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgeeksquiz-home%2F
+13:12:53	Warning: 	HTML file (14317 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/design-pattern/feed/
+13:12:53	Warning: 	HTML file (12884 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/puzzles/feed/
+13:12:55	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=136142 (from www.geeksforgeeks.org/geek-of-the-month/)
+13:12:55	Warning: 	HTML file (83659 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/project/page/2/
+13:12:55	Warning: 	HTML file (12399 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/gfact/feed/
+13:12:56	Warning: 	HTML file (13413 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/computer-graphics/feed/
+13:12:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fimage-processing%2F
+13:12:58	Warning: 	HTML file (926 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/circular-array/feed/
+13:12:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcircular-array%2F
+13:12:59	Warning: 	HTML file (15342 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/c-arrays/feed/
+13:13:00	Warning: 	HTML file (15764 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/technical-scripter/feed/
+13:13:01	Warning: 	HTML file (10862 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/circular-array/feed/
+13:13:02	Warning: 	HTML file (84536 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/project/page/3/
+13:13:02	Warning: 	HTML file (920 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/sparse-table/feed/
+13:13:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsparse-table%2F
+13:13:04	Warning: 	HTML file (13934 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/advanced-data-structure/feed/
+13:13:07	Warning: 	HTML file (14123 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/array-range-queries/feed/
+13:13:07	Warning: 	HTML file (923 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/prime-numbers/feed/
+13:13:08	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=151951
+13:13:10	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=151951 (from www.geeksforgeeks.org/careers/)
+13:13:10	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=137365
+13:13:10	Warning: 	HTML file (15936 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/mathematical/feed/
+13:13:12	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=137365 (from www.geeksforgeeks.org/internship/)
+13:13:12	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147324
+13:13:13	Warning: 	HTML file (14855 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/prime-number/feed/
+13:13:14	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147324 (from www.geeksforgeeks.org/school-programming/)
+13:13:14	Warning: 	HTML file (15495 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/series/feed/
+13:13:15	Warning: 	HTML file (15049 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/sieve/feed/
+13:13:16	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146431
+13:13:16	Warning: 	HTML file (977 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/program-convert-radian-degree/feed/
+13:13:18	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146431 (from www.geeksforgeeks.org/gate-corner-2-gq/)
+13:13:18	Warning: 	HTML file (38217 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146435
+13:13:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fprogram-convert-radian-degree%2F
+13:13:21	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146435 (from www.geeksforgeeks.org/gate-cs-notes-gq/)
+13:13:21	Warning: 	HTML file (9999 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/c-programs/feed/
+13:13:21	Warning: 	Retry after error -4 (Connect Error) at link alas.matf.bg.ac.rs/~mi10164/Materijali/DS.pdf (from www.geeksforgeeks.org/gate-cs-notes-gq/)
+13:13:21	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146442
+13:13:22	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146442 (from www.geeksforgeeks.org/lmns-gq/)
+13:13:22	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146449
+13:13:23	Warning: 	HTML file (5046 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/java-programs/feed/
+13:13:24	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146449 (from www.geeksforgeeks.org/original-gate-previous-year-question-papers-cse-and-it-gq/)
+13:13:24	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=155946
+13:13:24	Warning: 	HTML file (6474 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/python-programs/feed/
+13:13:26	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=155946 (from www.geeksforgeeks.org/gate-cs-2018-important-dates/)
+13:13:26	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146462
+13:13:26	Warning: 	HTML file (15552 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/school-programming/feed/
+13:13:28	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146462 (from www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/)
+13:13:28	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146797
+13:13:29	Warning: 	HTML file (1047 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/intel-interview-experience-set-4-campus-full-time/feed/
+13:13:30	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146797 (from www.geeksforgeeks.org/operating-systems/)
+13:13:30	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146830
+13:13:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fintel-interview-experience-set-4-campus-full-time%2F
+13:13:31	Warning: 	HTML file (5977 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/intel/feed/
+13:13:32	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146830 (from www.geeksforgeeks.org/dbms/)
+13:13:32	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147144
+13:13:33	Warning: 	HTML file (1013 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/program-convert-kmhr-mileshr-vice-versa/feed/
+13:13:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147144 (from www.geeksforgeeks.org/computer-network-tutorials/)
+13:13:34	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147180
+13:13:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fprogram-convert-kmhr-mileshr-vice-versa%2F
+13:13:36	Warning: 	HTML file (992 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/n-th-term-series-2-12-36-80-150/feed/
+13:13:36	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147180 (from www.geeksforgeeks.org/compiler-design-tutorials/)
+13:13:36	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147766
+13:13:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fn-th-term-series-2-12-36-80-150%2F
+13:13:38	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147766 (from www.geeksforgeeks.org/web-technology/)
+13:13:38	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147200
+13:13:39	Warning: 	HTML file (1010 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/k-primes-numbers-k-prime-factors-range/feed/
+13:13:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fk-primes-numbers-k-prime-factors-range%2F
+13:13:40	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147200 (from www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/)
+13:13:40	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147247
+13:13:41	Warning: 	HTML file (15510 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/number-theory/feed/
+13:13:41	Warning: 	HTML file (15185 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/prime-factor/feed/
+13:13:42	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147247 (from www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/)
+13:13:42	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147268
+13:13:43	Warning: 	HTML file (980 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/add-1-number-represented-array/feed/
+13:13:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fadd-1-number-represented-array%2F
+13:13:45	Warning: 	HTML file (16192 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/cpp-vector/feed/
+13:13:45	Warning: 	HTML file (1049 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/minimum-cost-make-longest-common-subsequence-length-k/feed/
+13:13:45	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147268 (from www.geeksforgeeks.org/engineering-mathematics-tutorials/)
+13:13:46	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147193
+13:13:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fminimum-cost-make-longest-common-subsequence-length-k%2F
+13:13:47	Warning: 	HTML file (15712 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/dynamic-programming/feed/
+13:13:47	Warning: 	HTML file (13922 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/lcs/feed/
+13:13:48	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147193 (from www.geeksforgeeks.org/theory-of-computation-automata-tutorials/)
+13:13:48	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147217
+13:13:49	Warning: 	HTML file (14016 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/xor/feed/
+13:13:50	Warning: 	HTML file (974 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/largest-divisible-pairs-subset/feed/
+13:13:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Flargest-divisible-pairs-subset%2F
+13:13:52	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147217 (from www.geeksforgeeks.org/advanced-computer-subjects-tutorials/)
+13:13:52	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146459
+13:13:52	Warning: 	HTML file (16124 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/divisibility/feed/
+13:13:53	Warning: 	HTML file (13310 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/subset/feed/
+13:13:54	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146459 (from www.geeksforgeeks.org/quizzes-on-programming-languages-gq/)
+13:13:54	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146443
+13:13:55	Warning: 	HTML file (954 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/sql-ddl-dml-tcl-dcl/feed/
+13:13:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsql-ddl-dml-tcl-dcl%2F
+13:13:57	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146443 (from www.geeksforgeeks.org/quiz-corner-gq/)
+13:13:57	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146592
+13:13:59	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146592 (from www.geeksforgeeks.org/software-engineering-gq/)
+13:13:59	Warning: 	HTML file (13533 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/computer-subject/dbms/feed/
+13:14:01	Warning: 	HTML file (14309 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/sql/feed/
+13:14:02	Warning: 	HTML file (974 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/game-replacing-array-elements/feed/
+13:14:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fgame-replacing-array-elements%2F
+13:14:04	Warning: 	HTML file (86990 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/guestblogs/page/2/
+13:14:08	Warning: 	HTML file (85461 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/guestblogs/page/3/
+13:14:11	Warning: 	HTML file (15965 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/hash/feed/
+13:14:12	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=139191
+13:14:14	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139191 (from www.geeksforgeeks.org/the-technical-scripter-event-by-geeksforgeeks-2/)
+13:14:14	Warning: 	HTML file (75425 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=157790
+13:14:17	Warning: 	HTML file (929 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/narayana-number/feed/
+13:14:18	Warning: 	HTML file (120070 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=153571
+13:14:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fnarayana-number%2F
+13:14:24	Warning: 	HTML file (103835 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/basic/2/
+13:14:29	Warning: 	HTML file (102999 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/expert/2/
+13:14:33	Warning: 	HTML file (15722 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/combinatorial/feed/
+13:14:33	Warning: 	HTML file (88478 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/amazon/page/3/
+13:14:36	Warning: 	HTML file (1023 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/count-subarrays-second-highest-lie-highest/feed/
+13:14:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcount-subarrays-second-highest-lie-highest%2F
+13:14:38	Warning: 	HTML file (88254 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/microsoft/page/3/
+13:14:39	Warning: 	HTML file (14838 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/stack/feed/
+13:14:42	Warning: 	HTML file (937 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/searching-in-fork/feed/
+13:14:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fsearching-in-fork%2F
+13:14:44	Warning: 	HTML file (75805 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/samsung/page/3/
+13:14:44	Warning: 	HTML file (14999 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/cpp/feed/
+13:14:45	Warning: 	HTML file (15862 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/cpp-programs/feed/
+13:14:46	Warning: 	HTML file (12970 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/system-programming/feed/
+13:14:48	Warning: 	HTML file (1103 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/find-trace-matrix-formed-adding-row-major-column-major-order-matrix/feed/
+13:14:49	Warning: 	HTML file (80085 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=138711
+13:14:49	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ffind-trace-matrix-formed-adding-row-major-column-major-order-matrix%2F
+13:14:49	Warning: 	HTML file (15907 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/matrix/feed/
+13:14:50	Warning: 	HTML file (19360 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/longest-common-subsequence/feed/
+13:14:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Flongest-common-subsequence%2F
+13:14:54	Warning: 	HTML file (8871 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/feed/
+13:14:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fbreadth-first-traversal-for-a-graph%2F
+13:14:55	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=146456
+13:14:57	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=146456 (from www.geeksforgeeks.org/placements-gq/)
+13:14:57	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=142128
+13:14:59	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=142128 (from www.geeksforgeeks.org/company-interview-corner/)
+13:14:59	Warning: 	HTML file (91326 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/page/2/
+13:14:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Flongest-repeated-subsequence%2F
+13:14:59	Warning: 	HTML file (8678 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/feed/
+13:15:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdynamic-programming-set-12-longest-palindromic-subsequence%2F
+13:15:02	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdetect-negative-cycle-graph-bellman-ford%2F
+13:15:04	Warning: 	HTML file (90278 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/interview-experiences/page/3/
+13:15:05	Warning: 	HTML file (14344 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/knapsack-problem/feed/
+13:15:07	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fknapsack-problem%2F
+13:15:09	Warning: 	HTML file (23443 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/depth-first-traversal-for-a-graph/feed/
+13:15:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fdepth-first-traversal-for-a-graph%2F
+13:15:11	Warning: 	HTML file (81451 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/design-pattern/page/2/
+13:15:13	Warning: 	HTML file (12260 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/reverse-a-linked-list/feed/
+13:15:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Freverse-a-linked-list%2F
+13:15:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ftop-algorithms-and-data-structures-for-competitive-programming%2F
+13:15:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Ftop-10-algorithms-in-interview-questions%2F
+13:15:16	Warning: 	HTML file (84224 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/design-pattern/page/3/
+13:15:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fhow-to-begin-with-competitive-programming%2F
+13:15:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fhow-to-prepare-for-acm-icpc%2F
+13:15:19	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.diss.fu-berlin.de/docs/servlets/MCRFileNodeServlet/FUDOCS_derivate_000000000270/1994_12.pdf
+13:15:20	Warning: 	HTML file (15176 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/greedy/feed/
+13:15:20	Warning: 	HTML file (12983 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/backtracking/feed/
+13:15:20	Warning: 	HTML file (14132 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/pattern-searching/feed/
+13:15:21	Warning: 	HTML file (13036 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/divide-and-conquer/feed/
+13:15:22	Warning: 	HTML file (84310 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/puzzles/page/3/
+13:15:23	Warning: 	HTML file (14914 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/geometric/feed/
+13:15:23	Warning: 	HTML file (15925 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/searching/feed/
+13:15:23	Warning: 	HTML file (16302 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/sorting/feed/
+13:15:26	Warning: 	HTML file (13206 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/analysis/feed/
+13:15:27	Warning: 	HTML file (12586 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/randomized/feed/
+13:15:27	Warning: 	HTML file (14301 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/recursion/feed/
+13:15:30	Warning: 	HTML file (15454 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/statistical-algorithms/feed/
+13:15:30	Warning: 	HTML file (13230 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/aptitude/feed/
+13:15:31	Warning: 	HTML file (13249 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/aptitude-gq/feed/
+13:15:31	Warning: 	HTML file (66694 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/gfact/page/3/
+13:15:32	Warning: 	HTML file (15031 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/articles/feed/
+13:15:33	Warning: 	HTML file (15536 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/bit-magic/feed/
+13:15:34	Warning: 	HTML file (15601 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/c/feed/
+13:15:35	Warning: 	HTML file (12886 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/c/feed/
+13:15:36	Warning: 	HTML file (12837 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/cpp-gq/feed/
+13:15:37	Warning: 	HTML file (15743 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/computer-subject/computer-networks/feed/
+13:15:37	Warning: 	HTML file (14855 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/cpp-library/feed/
+13:15:39	Warning: 	HTML file (12985 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/c-gq/feed/
+13:15:40	Warning: 	HTML file (13719 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/data-structures-gate-gq/feed/
+13:15:40	Warning: 	HTML file (13667 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/data-structures/feed/
+13:15:40	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=147570
+13:15:41	Warning: 	HTML file (15973 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/graph/feed/
+13:15:42	Warning: 	HTML file (14762 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/java/feed/
+13:15:42	Warning: 	HTML file (14309 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/linked-list/feed/
+13:15:44	Warning: 	HTML file (15013 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/number-digits/feed/
+13:15:45	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=147570 (from www.geeksforgeeks.org/image-processing/)
+13:15:45	Warning: 	HTML file (76287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166046
+13:15:45	Warning: 	HTML file (15452 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/python/feed/
+13:15:45	Warning: 	HTML file (14931 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/qa-placement-quizzes/feed/
+13:15:46	Warning: 	HTML file (14950 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/qa-placement-quizzes-gq/feed/
+13:15:49	Warning: 	HTML file (14888 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/stl/feed/
+13:15:49	Warning: 	HTML file (16049 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/c-strings/feed/
+13:15:49	Warning: 	HTML file (15592 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/tree/feed/
+13:15:52	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Frecent-comments%2F
+13:15:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js
+13:15:53	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js
+13:15:53	Warning: 	HTML file (7681 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/about/contact-us/feed/
+13:15:54	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fabout%2Fcontact-us%2F
+13:15:55	Warning: 	HTML file (86346 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/c-arrays/page/2/
+13:15:55	Warning: 	HTML file (7876 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/about/feed/
+13:15:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fabout%2F
+13:16:00	Warning: 	HTML file (87829 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/c-arrays/page/3/
+13:16:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fprivacy-policy%2F
+13:16:04	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): www.geeksforgeeks.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geeksforgeeks.org%2Fcontribute%2Farticle-writing-style%2F
+13:16:04	Warning: 	HTML file (87572 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/technical-scripter/page/3/
+13:16:09	Warning: 	HTML file (81238 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=165422
+13:16:13	Warning: 	HTML file (87210 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/advanced-data-structure/page/2/
+13:16:18	Warning: 	HTML file (89494 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/advanced-data-structure/page/3/
+13:16:21	Warning: 	HTML file (90313 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/array-range-queries/page/3/
+13:16:28	Warning: 	HTML file (76914 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=165395
+13:16:30	Warning: 	HTML file (86949 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/mathematical/page/2/
+13:16:34	Warning: 	HTML file (89754 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/mathematical/page/3/
+13:16:38	Warning: 	HTML file (87630 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/prime-number/page/3/
+13:16:42	Warning: 	HTML file (86358 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/series/page/3/
+13:16:46	Warning: 	HTML file (87125 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/sieve/page/3/
+13:16:49	Warning: 	HTML file (75875 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166070
+13:16:53	Warning: 	HTML file (85843 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/school-programming/page/2/
+13:16:56	Warning: 	HTML file (84756 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/school-programming/page/3/
+13:17:00	Warning: 	HTML file (79492 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166065
+13:17:03	Warning: 	HTML file (75720 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166057
+13:17:07	Warning: 	HTML file (73320 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166052
+13:17:10	Warning: 	HTML file (75600 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166044
+13:17:13	Warning: 	HTML file (86853 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/number-theory/page/2/
+13:17:17	Warning: 	HTML file (88696 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/number-theory/page/3/
+13:17:21	Warning: 	HTML file (86816 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/prime-factor/page/3/
+13:17:25	Warning: 	HTML file (74094 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166042
+13:17:29	Warning: 	HTML file (71592 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/cpp-vector/page/2/
+13:17:32	Warning: 	HTML file (76549 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166040
+13:17:36	Warning: 	HTML file (87001 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/dynamic-programming/page/2/
+13:17:39	Warning: 	HTML file (86738 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/dynamic-programming/page/3/
+13:17:43	Warning: 	HTML file (87474 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/xor/page/2/
+13:17:47	Warning: 	HTML file (86520 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/xor/page/3/
+13:17:51	Warning: 	HTML file (74901 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166036
+13:17:55	Warning: 	HTML file (87832 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/divisibility/page/2/
+13:17:59	Warning: 	HTML file (88420 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/divisibility/page/3/
+13:18:02	Warning: 	HTML file (78167 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=165977
+13:18:06	Warning: 	HTML file (88668 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/computer-subject/dbms/page/2/
+13:18:09	Warning: 	HTML file (88484 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/computer-subject/dbms/page/3/
+13:18:13	Warning: 	HTML file (85448 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/sql/page/3/
+13:18:17	Warning: 	HTML file (75036 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166021
+13:18:21	Warning: 	HTML file (87071 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/hash/page/2/
+13:18:25	Warning: 	HTML file (89164 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/hash/page/3/
+13:18:28	Warning: 	HTML file (74179 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166004
+13:18:32	Warning: 	HTML file (85299 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/combinatorial/page/2/
+13:18:35	Warning: 	HTML file (86755 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/combinatorial/page/3/
+13:18:39	Warning: 	HTML file (76741 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=166013
+13:18:43	Warning: 	HTML file (86662 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/stack/page/2/
+13:18:47	Warning: 	HTML file (85759 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/stack/page/3/
+13:18:51	Warning: 	HTML file (74764 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=163166
+13:18:55	Warning: 	HTML file (86273 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/cpp/page/2/
+13:18:59	Warning: 	HTML file (86223 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/cpp/page/3/
+13:19:02	Warning: 	HTML file (88760 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/system-programming/page/2/
+13:19:06	Warning: 	HTML file (84584 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/system-programming/page/3/
+13:19:10	Warning: 	HTML file (78139 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=165985
+13:19:13	Warning: 	HTML file (85404 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/matrix/page/2/
+13:19:17	Warning: 	HTML file (86276 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/matrix/page/3/
+13:19:22	Warning: 	HTML file (86336 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=12998
+13:19:26	Warning: 	HTML file (85092 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=18382
+13:19:30	Warning: 	HTML file (77818 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=160723
+13:19:34	Warning: 	HTML file (84972 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=19155
+13:19:38	Warning: 	HTML file (85176 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=161131
+13:19:42	Warning: 	HTML file (85535 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=18430
+13:19:46	Warning: 	HTML file (90886 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=18212
+13:19:50	Warning: 	HTML file (95301 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=860
+13:19:54	Warning: 	HTML file (86426 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136306
+13:19:58	Warning: 	HTML file (83136 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136249
+13:20:02	Warning: 	HTML file (81322 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=136426
+13:20:06	Warning: 	HTML file (93430 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=139293
+13:20:10	Error: 	"Not Found" (404) at link mirror.mit-ocw.sbu.ac.ir/courses/sloan-school-of-management/15-082j-network-optimization-spring-2003/animations/cycle_canceling_algorithm.pdf (from www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/)
+13:20:10	Warning: 	HTML file (83595 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/greedy/
+13:20:14	Warning: 	HTML file (86728 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/greedy/page/2/
+13:20:18	Warning: 	HTML file (84683 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/backtracking/page/2/
+13:20:22	Warning: 	HTML file (89230 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/pattern-searching/page/2/
+13:20:26	Warning: 	HTML file (86104 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/divide-and-conquer/page/2/
+13:20:30	Warning: 	HTML file (85077 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/geometric/page/3/
+13:20:34	Warning: 	HTML file (89872 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/searching/page/2/
+13:20:38	Warning: 	HTML file (92234 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/sorting/page/2/
+13:20:42	Warning: 	HTML file (86214 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/randomized/page/2/
+13:20:46	Warning: 	HTML file (65224 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/randomized/page/3/
+13:20:49	Warning: 	HTML file (86615 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/recursion/page/2/
+13:20:53	Warning: 	HTML file (87982 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/aptitude/page/2/
+13:20:56	Warning: 	HTML file (87885 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/aptitude/page/3/
+13:21:00	Warning: 	HTML file (87695 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/aptitude-gq/page/3/
+13:21:04	Warning: 	HTML file (87235 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/articles/page/3/
+13:21:09	Warning: 	HTML file (85294 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/algorithm/bit-magic/page/3/
+13:21:13	Warning: 	HTML file (92922 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/c/page/3/
+13:21:17	Warning: 	HTML file (87941 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/c/page/3/
+13:21:20	Warning: 	HTML file (87887 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/cpp-gq/page/3/
+13:21:24	Warning: 	HTML file (85591 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/computer-subject/computer-networks/page/3/
+13:21:28	Warning: 	HTML file (87870 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/cpp-library/page/3/
+13:21:32	Warning: 	HTML file (88039 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/c-gq/page/3/
+13:21:37	Warning: 	HTML file (90094 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/computer-science-quizzes-gq/data-structures-gate-gq/page/3/
+13:21:41	Warning: 	HTML file (89901 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/data-structures/page/3/
+13:21:44	Warning: 	HTML file (86242 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/graph/page/3/
+13:21:48	Warning: 	HTML file (90955 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/java/page/3/
+13:21:53	Warning: 	HTML file (93029 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/linked-list/page/3/
+13:21:57	Warning: 	HTML file (87467 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/number-digits/page/3/
+13:22:00	Warning: 	HTML file (92972 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/programming-language/python/page/3/
+13:22:05	Warning: 	HTML file (89089 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/qa-placement-quizzes/page/3/
+13:22:08	Warning: 	HTML file (88943 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/quizzes-gq/qa-placement-quizzes-gq/page/3/
+13:22:13	Warning: 	HTML file (86044 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/stl/page/3/
+13:22:16	Warning: 	HTML file (88179 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/c-strings/page/3/
+13:22:20	Warning: 	HTML file (92569 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/data-structures/tree/page/3/
+13:22:24	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=29076
+13:22:25	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=29076 (from www.geeksforgeeks.org/about/contact-us/)
+13:22:25	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=2
+13:22:27	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=2 (from www.geeksforgeeks.org/about/)
+13:22:31	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=139933
+13:22:32	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=139933 (from www.geeksforgeeks.org/privacy-policy/)
+13:22:32	Warning: 	HTML file (38287 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/?p=25675
+13:22:34	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/?p=25675 (from www.geeksforgeeks.org/contribute/article-writing-style/)
+13:22:34	Warning: 	HTML file (85405 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/category/program-output/page/6/
+13:22:39	Warning: 	HTML file (91586 bytes) retransferred due to lack of cache: www.geeksforgeeks.org/tag/cpp-library/page/6/
+13:22:43	Warning: 	Retry after error -4 (Connect Error) at link alas.matf.bg.ac.rs/~mi10164/Materijali/DS.pdf (from www.geeksforgeeks.org/gate-cs-notes-gq/)
+13:22:43	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/about_us/gfgabout/css/grabbing.png (from www.geeksforgeeks.org/about_us/gfgabout/css/owl.carousel.css)
+13:22:43	Error: 	"Not Found" (404) at link www.geeksforgeeks.org/about_us/gfgabout/css/AjaxLoader.gif (from www.geeksforgeeks.org/about_us/gfgabout/css/owl.theme.css)
+13:23:04	Error: 	"Connect Error" (-4) after 2 retries at link alas.matf.bg.ac.rs/~mi10164/Materijali/DS.pdf (from www.geeksforgeeks.org/gate-cs-notes-gq/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 20 minutes 34 seconds : 1905 links scanned, 2178 files written (253441478 bytes overall) [129541328 bytes received at 26797 bytes/sec], 118038399 bytes transferred using HTTP compression in 1537 files, ratio 17%, 5.0 requests per connection
+(142 errors, 436 warnings, 0 messages)

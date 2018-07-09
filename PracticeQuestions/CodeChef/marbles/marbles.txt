@@ -1,0 +1,32 @@
+All submissions for this problem are available.
+
+Rohit dreams he is in a shop with an infinite amount of marbles. He is allowed to select n marbles. There are marbles of k different colors. From each color there are also infinitely many marbles. Rohit wants to have at least one marble of each color, but still there are a lot of possibilities for his selection. In his effort to make a decision he wakes up. Now he asks you how many possibilities for his selection he would have had. Assume that marbles of equal color can't be distinguished, and the order of the marbles is irrelevant.
+Input
+
+The first line of input contains a number T <= 100 that indicates the number of test cases to follow. Each test case consists of one line containing n and k, where n is the number of marbles Rohit selects and k is the number of different colors of the marbles. You can assume that 1<=k<=n<=1000000.
+Output
+
+For each test case print the number of possibilities that Rohit would have had. You can assume that this number fits into a signed 64 bit integer.
+Example
+
+Input:
+2
+10 10
+30 7
+
+Output:
+1
+475020
+
+Author: admin
+
+Tags: admin
+
+Date Added: 1-12-2008
+
+Time Limit: 0.44 secs
+
+Source Limit: 10000 Bytes
+
+Languages: C, CPP14, JAVA, PYTH, PYTH 3.5, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, TEXT, SCM chicken, CLOJ, COB, FS
+
