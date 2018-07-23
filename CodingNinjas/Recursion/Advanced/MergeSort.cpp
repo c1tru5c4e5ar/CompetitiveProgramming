@@ -4,7 +4,7 @@
 #define vi std::vector<int>
 using namespace std;
 
-void mergeSort(vector<int>::iterator first, vector<int>::iterator last)
+void mergeSort(viter first, viter last)
 {
 //Base case: if size of array <=1, it is sorted.
 
@@ -13,7 +13,7 @@ void mergeSort(vector<int>::iterator first, vector<int>::iterator last)
 
 //Split Array by finding middle position
 
-  vector<int>::iterator mid = first;
+  viter mid = first;
   advance(mid, distance(first, last)/2);
 
 //Call mergeSort on both halves
@@ -30,10 +30,10 @@ void mergeSort(vector<int>::iterator first, vector<int>::iterator last)
   //std::inplace_merge(first, mid, last); //Does the same as below snippet
 
 ///*
-  vector<int>::iterator i;
-  vector<int>::iterator j;
+  auto i = first;
+  auto j = last;
 
-  for(i = first, j = mid ; i != mid && j != last ; ){
+  while(i != mid && j != last){
     if(*i <= *j)
     {
       v.pb(*i);
@@ -45,6 +45,7 @@ void mergeSort(vector<int>::iterator first, vector<int>::iterator last)
       ++j;
     }
   }
+  
 //Check for remaing element in case size of initial array was odd
 while(i < mid){
   v.pb(*i);

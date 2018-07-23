@@ -8,7 +8,13 @@ bool CheckNumber(vector<int>::iterator first, vector<int>::iterator last, int n)
   if(first == last)
     return false;
 
-  
+  if(*first == n)
+    return true;
+
+  bool i = CheckNumber(first+1, last, n);
+  if(i == true)
+    return true;
+  return false;
 }
 
 
@@ -25,8 +31,6 @@ int main()
     cin>>x;
     arr.pb(x);
   }
-
-
 
   return 0;
 }

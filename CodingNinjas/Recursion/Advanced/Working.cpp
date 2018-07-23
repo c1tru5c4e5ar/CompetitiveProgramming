@@ -1,56 +1,55 @@
 #include<bits/stdc++.h>
+
 #define vi std::vector<int>
-#define viter std::vector<int>::iterator
+#define vs std::vector<string>
+#define ds std::deque<string>
+#define viiter std::vector<int>::iterator
+#define vsiter std::vector<string>::iterator
+#define dsiter deque<string>::iterator
+#define siter std::string::iterator
 #define pb push_back
+
+
 using namespace std;
+
+std::vector<string> combinations;
+std::vector<string> keypad;
+
+void constructKeypad()
+{
+  keypad.pb("");     //0
+  keypad.pb("");     //1
+  keypad.pb("abc");  //2
+  keypad.pb("def");
+  keypad.pb("ghi");
+  keypad.pb("jkl");
+  keypad.pb("mno");
+  keypad.pb("pqrs");
+  keypad.pb("tuv");
+  keypad.pb("wxyz"); //9
+}
 
 int main()
 {
-  std::vector<int> arr = {5,2,7,6,1,3,4};
 
-  viter first = arr.begin();
-  viter last = arr.end();
+  combinations = {"a", "b", "c", "a", "b", "c", "a", "b", "c"};
+  string str = "xyz";
 
-  viter mid = first;
-  advance(mid, distance(first,last)/2);
+  int numberOfCopies = 3;
 
-  std::sort(first, mid);
-  std::sort(mid, last);
-
-//Merging
-  vi v;
-  v.reserve(distance(first, last));
-
-  viter i,j;
-
-  for(i = first, j = mid ; i != mid && j != last ; ){
-    if(*i <= *j)
-    {
-      v.pb(*i);
-      ++i;
-    }
-    else
-    {
-      v.pb(*j);
-      ++j;
-    }
+  int k = 0;
+  for(int i = 0; i<numberOfCopies; ++i){
+    for(int j = 0; j<numberOfCopies; ++j){
+      combinations.at(k) += str.at(i);
+      ++k;
+    }    
   }
 
-  while(i < mid){
-    v.pb(*i);
-    ++i;
-  }
-
-  while(j < last){
-    v.pb(*j);
-    ++j;
+  for(auto &s : combinations){
+    cout<<s<<" ";
   }
 
 
-  //cout<<arr.size()<<endl<<distance(first, last);
-
-//*/
-  std::copy(v.begin(), v.end(), ostream_iterator<int>(cout, " "));
 
   return 0;
 }
