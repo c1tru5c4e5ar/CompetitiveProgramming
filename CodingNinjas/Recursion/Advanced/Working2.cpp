@@ -1,3 +1,5 @@
+//#include "competitve.h"
+
 #include<bits/stdc++.h>
 
 #define vi std::vector<int>
@@ -61,6 +63,7 @@ int main()
 
 	//cout<<combinations.size()<<endl;
 	copy(combinations.begin(), combinations.end(), ostream_iterator<string>(cout, " "));
+	copy(keypad.begin(), keypad.end(), ostream_iterator<string>(cout," "));
 
 
 	//string str = "a" + *first;
